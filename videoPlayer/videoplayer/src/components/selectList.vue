@@ -24,18 +24,18 @@
          </ul>
        </li>
        <!-- 我的笔记 -->
-       <li class="myNote isshow">
+       <li class="myNote ">
          <!-- 输入框区域 -->
          <div class="input-area clear">
-            <textarea  placeholder="请输入你的笔记内容..." ></textarea>
+            <textarea  placeholder="请输入你的笔记内容..." class="size-12"></textarea>
             <input type="checkbox" value=""><i class="size-14">私密</i>
-            <button type="button" >发布</button>
+            <button type="button" class="size-14">发布</button>
          </div>
          <!-- 笔记列表 -->
          <div class="list-area">
             <ul class="table-list">
-              <li class="cusor_hand">全部笔记</li>
-              <li class="cusor_hand">我的笔记</li>
+              <li class="cusor_hand size-14 select">全部笔记</li>
+              <li class="cusor_hand size-14">我的笔记</li>
             </ul>
             <ul class="note-list">
               <!-- 我的笔记 -->
@@ -43,28 +43,81 @@
                 <ul>
                   <li class="clear">
                     <img src="../assets/video-content-charcter.png" alt="img" />
-                    <h5>寂寞星球的玫瑰</h5>
-                    <p>
+                    <h5 class="size-14 overflow_pre">寂寞星球的玫瑰</h5>
+                    <p class="size-12">
                       好记性不如烂笔头所以多记笔记我也是凑字符的、哈
                       哈哈哈哈？
                     </p>
-                    <span class="time">2016-01-02  10:39 </span>
-                    <button type="button" name="button">回复</button>
-                    <i class="iconfont">&#xe603</i>
+                    <span class="time size-12">2016-01-02  10:39 </span>
                   </li>
                 </ul>
               </li>
               <!-- 全部笔记 -->
               <li class="allnote">
                 <ul>
-                  <li></li>
+                  <li class="clear">
+                    <img src="../assets/video-content-charcter.png" alt="img" />
+                    <h5 class="size-14 overflow_pre">寂寞星球的玫瑰</h5>
+                    <p class="size-12">
+                      好记性不如烂笔头所以多记笔记我也是凑字符的、哈
+                      哈哈哈哈？
+                    </p>
+                    <span class="time size-12">2016-01-02  10:39 </span>
+                  </li>
                 </ul>
               </li>
             </ul>
          </div>
        </li>
        <!-- 我的问答 -->
-       <li class="myAnswer">
+       <li class="myAnswer isshow">
+         <!-- 问题输入框区域 -->
+         <div class="input-area clear">
+            <textarea  placeholder="请输入你的提问内容..." class="size-12"></textarea>
+            <span>最多可以输入100字</span>
+            <button type="button" class="size-14">发布</button>
+         </div>
+         <!-- 问答列表 -->
+         <div class="list-area">
+            <ul class="table-list">
+              <li class="cusor_hand size-14 select">全部笔记</li>
+              <li class="cusor_hand size-14">我的笔记</li>
+            </ul>
+            <ul class="aq-list">
+              <!-- 我的问答 -->
+              <li class="myaq">
+                <ul>
+                  <li class="clear">
+                    <img src="../assets/video-content-charcter.png" alt="img" />
+                    <h5 class="size-14 overflow_pre">寂寞星球的玫瑰</h5>
+                    <p class="size-12">
+                      好记性不如烂笔头所以多记笔记我也是凑字符的、哈
+                      哈哈哈哈？
+                    </p>
+                    <span class="time size-12">2016-01-02  10:39 </span>
+                    <button type="button" class="size-12 cusor_hand">回复</button>
+                    <i class="iconfont size-12">&#xe603</i>
+                  </li>
+                </ul>
+              </li>
+              <!-- 全部问答 -->
+              <li class="allaq">
+                <ul>
+                  <li class="clear">
+                    <img src="../assets/video-content-charcter.png" alt="img" />
+                    <h5 class="size-14 overflow_pre">寂寞星球的玫瑰</h5>
+                    <p class="size-12">
+                      好记性不如烂笔头所以多记笔记我也是凑字符的、哈
+                      哈哈哈哈？
+                    </p>
+                    <span class="time size-12">2016-01-02  10:39 </span>
+                    <button type="button" class="size-12 cusor_hand">回复</button>
+                    <i class="iconfont size-12">&#xe603</i>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         </div>
        </li>
      </ul>
   </div>
@@ -92,6 +145,7 @@ export default {
   //  左侧按钮
    .nav_left{
      position: absolute;
+     z-index: 999;
      width: 53px;
      height: 100%;
      top: 0;
@@ -112,6 +166,10 @@ export default {
        line-height: 20px;
        font-size: 14px;
        margin-bottom:  8px;
+       transition: all 0.2s ease-in;
+       &:hover{
+         background-color: $main_color;
+       }
      }
      >.select{
        background-color: $main_color;
@@ -187,14 +245,15 @@ export default {
       padding-top: 25px;
       // 输入区域
       >.input-area{
-        padding: 40px 25px 20px 25px;
+        padding: 40px 25px ;
         box-sizing: border-box;
         border-top: 1px solid #333739;
         border-bottom: 1px solid #333739;
         //文本输入框
         >textarea{
+          font-family: '微软雅黑';
           height: 70px;
-          width: 280px;
+          width: 100%;
           padding: 5px;
           box-sizing: border-box;
           display: block;
@@ -206,16 +265,248 @@ export default {
           width: 15px;
           border-radius: 0;
           margin-right: 5px;
+          float: left;
         }
         >i{
-          display: inline-block;
+          display: block;
           height: 15px;
           line-height: 15px;
+          font-style:normal;
+          float: left;
+        }
+        // 确认按钮
+        >button{
+          font-family: '微软雅黑';
+          height: 20px;
+          width: 55px;
+          text-align: center;
+          line-height: 20px;
+          background-color: $main_color;
+          color: #ffffff;
+          border-radius: 0;
+          border: 0;
+          float: right;
         }
       }
       // 详情列表区域
       >.list-area{
+        height: calc(100% - 184px);
 
+        // 切换按键
+        >.table-list{
+          height: 50px;
+          margin: 0 25px;
+          border-bottom: 1px solid #65737e;
+          font-size: 0;
+          >li{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            width: 80px;
+            display: inline-block;
+            transition: all 0.2s ease-in;
+            &:hover{
+              color: #ffffff;
+            }
+          }
+          // 被选中后的状态
+          >.select{
+            border-bottom: 1px solid $main_color;
+            position: relative;
+            color: #ffffff;
+            &:after{
+              width: 0;
+              height: 0;
+              display: block;
+              content: '';
+              border: 4px solid #161a1d;
+              border-bottom-color: $main_color;
+              position: absolute;
+              bottom: 0;
+              left: 38px;
+            }
+          }
+        }
+        // 提问列表
+        >.note-list{
+          height: calc(100% - 51px);
+          position: relative;
+            >li{
+              height: 100%;
+              box-sizing: border-box;
+              overflow-y: auto;
+              position: absolute;
+              top: 0;
+              left: 0;
+              >ul{
+                >li{
+                  padding: 22px 25px 16px 25px;
+                  border-bottom: 1px dashed #909090;
+                  >img{
+                    height: 35px;
+                    width: 35px;
+                    float: left;
+                    border-radius: 50%;
+                    display: block;
+                    margin-right: 10px;
+                  }
+                  >h5{
+                    float: left;
+                    height: 35px;
+                    line-height: 35px;
+                    width: calc(100% - 45px);
+                    color: #8498a8;
+                    font-weight: 400;
+                  }
+                  >p{
+                    line-height: 25px;
+                    margin: 5px 0;
+                    float: left;
+                  }
+                  >span{
+                    float: left;
+                  }
+                }
+              }
+            }
+        }
+      }
+    }
+    //我的问答
+    .myAnswer{
+      color: #b5b5b5;
+      padding-top: 25px;
+      // 输入区域
+      >.input-area{
+        padding: 40px 25px ;
+        box-sizing: border-box;
+        border-top: 1px solid #333739;
+        border-bottom: 1px solid #333739;
+        //文本输入框
+        >textarea{
+          font-family: '微软雅黑';
+          height: 70px;
+          width: 100%;
+          padding: 5px;
+          box-sizing: border-box;
+          display: block;
+          margin-bottom: 12px;
+          resize: none;
+        }
+        >span{
+          font-size: 12px;
+          float: left;
+        }
+        // 确认按钮
+        >button{
+          font-family: '微软雅黑';
+          height: 20px;
+          width: 55px;
+          text-align: center;
+          line-height: 20px;
+          background-color: $main_color;
+          color: #ffffff;
+          border-radius: 0;
+          border: 0;
+          float: right;
+        }
+      }
+      // 详情列表区域
+      >.list-area{
+        height: calc(100% - 184px);
+
+        // 切换按键
+        >.table-list{
+          height: 50px;
+          margin: 0 25px;
+          border-bottom: 1px solid #65737e;
+          font-size: 0;
+          >li{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            width: 80px;
+            display: inline-block;
+            transition: all 0.2s ease-in;
+            &:hover{
+              color: #ffffff;
+            }
+          }
+          // 被选中后的状态
+          >.select{
+            border-bottom: 1px solid $main_color;
+            position: relative;
+            color: #ffffff;
+            &:after{
+              width: 0;
+              height: 0;
+              display: block;
+              content: '';
+              border: 4px solid #161a1d;
+              border-bottom-color: $main_color;
+              position: absolute;
+              bottom: 0;
+              left: 38px;
+            }
+          }
+        }
+        // 提问列表
+        >.aq-list{
+          height: calc(100% - 51px);
+          position: relative;
+            >li{
+              height: 100%;
+              box-sizing: border-box;
+              overflow-y: auto;
+              position: absolute;
+              top: 0;
+              left: 0;
+              >ul{
+                >li{
+                  padding: 22px 25px 16px 25px;
+                  border-bottom: 1px dashed #909090;
+                  >img{
+                    height: 35px;
+                    width: 35px;
+                    float: left;
+                    border-radius: 50%;
+                    display: block;
+                    margin-right: 10px;
+                  }
+                  >h5{
+                    float: left;
+                    height: 35px;
+                    line-height: 35px;
+                    width: calc(100% - 45px);
+                    color: #8498a8;
+                    font-weight: 400;
+                  }
+                  >p{
+                    line-height: 25px;
+                    margin: 5px 0;
+                    float: left;
+                  }
+                  >span{
+                    float: left;
+                  }
+                  >button{
+                    float: right;
+                    background-color: transparent;
+                    border: none;
+                    color: #b5b5b5;
+                    transition: all 0.2s ease-in;
+                    &:hover{
+                      color: #ffffff;
+                    }
+                  }
+                  >i{
+                    float: right;
+                    margin-right: 5px;
+                  }
+                }
+              }
+            }
+        }
       }
     }
   }
