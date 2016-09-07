@@ -1,4 +1,6 @@
 {
-  "home/index.css": "home/index-89afa22702.css",
-  "shopping/buy.css": "shopping/buy-907176ff76.css"
+  "videoplayer/player-leftvideo.css": "videoplayer/player-leftvideo-d41d8cd98f.css",
+  "videoplayer/player-main.css": "videoplayer/player-main-e2505a5cbb.css",
+  "videoplayer/player-rightselect.css": "videoplayer/player-rightselect-931a916a93.css",
+  "videoplayer/player.css": "videoplayer/player-75b252ff82.css"
 }

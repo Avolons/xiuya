@@ -5,11 +5,11 @@
     <ul>
       <!-- 返回按钮 -->
       <button type="button"  class="header_left size-14 cusor_hand"> < 返回</button>
-      <li class="header_left size-14">正在播放：</li>
-      <li class="header_left">总时长：</li>
-      <li class="header_left">已学时长：</li>
-      <li class="header_right">Hi，hjj黄姣姣</li>
-      <li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息(3)</li>
+      <li class="header_left size-14">正在播放：{{headerTitle}}</li>
+      <li class="header_left alltime">总时长：{{headerAllTime}}分钟</li>
+      <li class="header_left">已学时长：{{headerHaveTime}}分钟</li>
+      <li class="header_right functions">Hi，hjj黄姣姣 <button type="button" class="cusor_hand">【退出】</button><span></span></li>
+      <li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息({{headerMessage}})</li>
     </ul>
  </header>
  <article>
@@ -33,7 +33,7 @@
 <script>
 //导入videoplayer组件
 import videoPlayer from 'components/videoPlayer/player-leftvideo';
-import selectList from 'components/videoPlayer/player-rightselect';
+import selectList from 'components/videoPlayer/player-rightselect'; 
 
 export default {
   components: {
@@ -45,6 +45,11 @@ export default {
     return{
       //右侧功能栏是否显示
       rightShow:true,
+      //*****顶部数据区域
+      headerTitle:'80,90后员工职业技能素养提升',//标题
+      headerAllTime:54,//总时长
+      headerHaveTime:28,//已用时长
+      headerMessage:3//消息数量
     }
   },
   //自定义事件

@@ -1,0 +1,218 @@
+// css初始化样式表
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,
+
+fieldset, legend, button, input, textarea, th, td { margin:0; padding:0;font-family: '微软雅黑'}
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; font-family: '微软雅黑'}
+table { border-collapse:collapse; border-spacing:0; }
+
+//滚动条美化样式
+.scroll-wrapper {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+.scroll-wrapper > .scroll-content {
+    border: none !important;
+    box-sizing: content-box !important;
+    height: auto;
+    left: 0;
+    margin: 0;
+    max-height: none;
+    max-width: none !important;
+    overflow: scroll !important;
+    padding: 0;
+    position: relative !important;
+    top: 0;
+    width: auto !important;
+}
+
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.scroll-element {
+    display: none;
+}
+.scroll-element, .scroll-element div {
+    box-sizing: content-box;
+}
+
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+    display: block;
+}
+
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+    cursor: default;
+}
+
+.scroll-textarea {
+    border: 1px solid #cccccc;
+    border-top-color: #999999;
+}
+.scroll-textarea > .scroll-content {
+    overflow: hidden !important;
+}
+.scroll-textarea > .scroll-content > textarea {
+    border: none !important;
+    box-sizing: border-box;
+    height: 100% !important;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    overflow: scroll !important;
+    outline: none;
+    padding: 2px;
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+}
+.scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+/*************** SCROLLBAR MAC OS X ***************/
+
+.scrollbar-macosx > .scroll-element,
+.scrollbar-macosx > .scroll-element div
+{
+    background: none; 
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.scrollbar-macosx > .scroll-element div {
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.scrollbar-macosx > .scroll-element .scroll-element_track { display: none; }
+.scrollbar-macosx > .scroll-element .scroll-bar {
+    background-color: #6C6E71;
+    display: block;
+
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+.scrollbar-macosx:hover > .scroll-element .scroll-bar,
+.scrollbar-macosx > .scroll-element.scroll-draggable .scroll-bar {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+
+.scrollbar-macosx > .scroll-element.scroll-x {
+    bottom: 0px;
+    height: 0px;
+    left: 0;
+    min-width: 100%;
+    overflow: visible;
+    width: 100%;
+}
+
+.scrollbar-macosx > .scroll-element.scroll-y {
+    height: 100%;
+    min-height: 100%;
+    right: 0px;
+    top: 0;
+    width: 0px;
+}
+
+/* scrollbar height/width & offset from container borders */
+.scrollbar-macosx > .scroll-element.scroll-x .scroll-bar { height: 7px; min-width: 10px; top: -9px; }
+.scrollbar-macosx > .scroll-element.scroll-y .scroll-bar { left: -9px; min-height: 10px; width: 7px; }
+
+.scrollbar-macosx > .scroll-element.scroll-x .scroll-element_outer { left: 2px; }
+.scrollbar-macosx > .scroll-element.scroll-x .scroll-element_size { left: -4px; }
+
+.scrollbar-macosx > .scroll-element.scroll-y .scroll-element_outer { top: 2px; }
+.scrollbar-macosx > .scroll-element.scroll-y .scroll-element_size { top: -4px; }
+
+/* update scrollbar offset if both scrolls are visible */
+.scrollbar-macosx > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -11px; }
+.scrollbar-macosx > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size { top: -11px; }
+
+
+//阿里巴巴矢量图标初始化
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1472897644_4191945.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1472897644_4191945.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1472897644_4191945.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1472897644_4191945.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1472897644_4191945.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+
+.iconfont{font-family:"iconfont";
+font-size:14px;font-style:normal;}
+
+
+// 项目样式变量,样式配置表
+//样式配置表
+//字体样式表
+.size-12{
+  font-size: 12px;
+}
+.size-14{
+  font-size: 14px;
+}
+.size-16{
+  font-size: 16px;
+}
+.size-18{
+  font-size: 18px;
+}
+//鼠标样式
+.cusor_hand{
+  cursor: pointer;
+}
+
+.overflow_pre{
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+}
+
+.clear:after{
+  display: block;
+  content: '';
+  clear: both;
+}
+// 主色调，中国红
+$main_color: #e43a3d;

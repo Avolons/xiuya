@@ -1,6 +1,6 @@
 <template>
   <div class="videoPlayer">
-    <video src="" controls="" preload="auto" poster="../../assets/images/videoplayer/video-content-poster.png" id="video" class="video-js vjs-default-skin vjs-big-play-centered">
+    <video src="" controls="" preload="auto" poster="../../assets/images/videoplayer/video-content-poster.jpg" id="video" class="video-js vjs-default-skin vjs-big-play-centered">
 
     </video>
   </div>
@@ -72,7 +72,7 @@ export default {
   events:{
     //通过父组件的中间传递，获取另一个子组件的数据
     'changesrc':function(data){
-      this.videoObj.dispose();
+      // this.videoObj.dispose();
       this.videoReload(this.videoObj,data,'video');
     }
   }

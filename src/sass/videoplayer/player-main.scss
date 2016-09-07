@@ -14,7 +14,7 @@ header{
     line-height: 45px;
     font-family: '微软雅黑';
     font-size: 12px;
-    button{
+    >button{
     font-family: '微软雅黑';
      height: 33px;
      line-height: 33px;
@@ -30,12 +30,46 @@ header{
        color: #ffffff;
      }
     }
-    li{
+    >li{
       color: #1f1f1f;
       .iconfont{
         color: $main_color;
         font-size: 12px;
         margin-right: 3px;
+      }
+    }
+    // 所有时间
+    >.alltime{
+      max-width: 300px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: pre;
+    }
+    //功能区域
+    >.functions{
+      position: relative;
+      padding-right: 13px;
+      &:hover span{
+        transform: rotate(180deg);
+      }
+      >span{
+        height: 0;
+        width: 0;
+        border: 5px solid transparent;
+        border-bottom-color: #333333;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 15px;
+        transition: all 0.3s ease-in;
+        transform-origin: 50% 7.5px;
+      }
+      >button{
+        background-color: transparent;
+        border: none;
+        &:hover{
+          color: $main_color;
+        }
       }
     }
   }

@@ -76,7 +76,7 @@
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src\\components\\videoplayer\\player-main.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(20)
+	__vue_template__ = __webpack_require__(19)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -129,7 +129,7 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\nhtml, body {\n  height: 100%;\n  min-width: 750px; }\n\nheader {\n  height: 45px;\n  padding: 0 30px;\n  background-image: url(" + __webpack_require__(6) + "); }\n  header ul {\n    height: 45px;\n    line-height: 45px;\n    font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n    font-size: 12px; }\n    header ul button {\n      font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n      height: 33px;\n      line-height: 33px;\n      margin-top: 6px;\n      padding: 0 15px;\n      box-sizing: border-box;\n      border: 1px solid #e7e6e6;\n      background-color: white;\n      color: #980100;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n      header ul button:hover {\n        background-color: #e43a3d;\n        color: #ffffff; }\n    header ul li {\n      color: #1f1f1f; }\n      header ul li .iconfont {\n        color: #e43a3d;\n        font-size: 12px;\n        margin-right: 3px; }\n  header .header_left {\n    float: left;\n    margin-right: 40px; }\n  header .header_right {\n    float: right;\n    margin-left: 40px; }\n\narticle {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-flex-direction: row;\n  height: calc(100% - 45px);\n  width: 100%; }\n  article .article_left {\n    width: 100%;\n    -ms-flex-negative: 1;\n        flex-shrink: 1;\n    -webkit-flex-shrink: 1;\n    height: 100%;\n    overflow: hidden; }\n    article .article_left > .nav_bottom {\n      background-color: #202020;\n      padding: 8px 25px;\n      box-sizing: border-box;\n      height: 35px;\n      color: #cacaca; }\n      article .article_left > .nav_bottom .download {\n        -webkit-transition: all 0.2s ease-in;\n        transition: all 0.2s ease-in; }\n        article .article_left > .nav_bottom .download:hover {\n          color: #ffffff; }\n      article .article_left > .nav_bottom .playtime {\n        float: right;\n        padding: 0 15px; }\n        article .article_left > .nav_bottom .playtime:after {\n          content: '';\n          display: block;\n          height: 16px;\n          width: 1px;\n          background-color: #363636;\n          float: right;\n          margin-right: -15px; }\n      article .article_left > .nav_bottom .studypeople {\n        float: right;\n        padding: 0 15px; }\n  article .article_right {\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    -webkit-flex-shrink: 0;\n    width: 0px;\n    height: 100%;\n    -webkit-transition: all 0.3s ease-in;\n    transition: all 0.3s ease-in; }\n  article > .checked {\n    width: 340px; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n::-webkit-scrollbar {\n  width: 10px;\n  height: 10px; }\n\n::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  border-radius: 5px;\n  background: #999999; }\n\n::-webkit-scrollbar-thumb {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.2); }\n\n::-webkit-scrollbar-thumb:hover {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.4); }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\nhtml, body {\n  height: 100%;\n  min-width: 750px; }\n\nheader {\n  height: 45px;\n  padding: 0 30px;\n  background-image: url(" + __webpack_require__(6) + "); }\n  header ul {\n    height: 45px;\n    line-height: 45px;\n    font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n    font-size: 12px; }\n    header ul > button {\n      font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n      height: 33px;\n      line-height: 33px;\n      margin-top: 6px;\n      padding: 0 15px;\n      box-sizing: border-box;\n      border: 1px solid #e7e6e6;\n      background-color: white;\n      color: #980100;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n      header ul > button:hover {\n        background-color: #e43a3d;\n        color: #ffffff; }\n    header ul > li {\n      color: #1f1f1f; }\n      header ul > li .iconfont {\n        color: #e43a3d;\n        font-size: 12px;\n        margin-right: 3px; }\n    header ul > .alltime {\n      max-width: 300px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: pre; }\n    header ul > .functions {\n      position: relative;\n      padding-right: 13px; }\n      header ul > .functions:hover span {\n        -webkit-transform: rotate(180deg);\n                transform: rotate(180deg); }\n      header ul > .functions > span {\n        height: 0;\n        width: 0;\n        border: 5px solid transparent;\n        border-bottom-color: #333333;\n        display: block;\n        position: absolute;\n        right: 0;\n        top: 15px;\n        -webkit-transition: all 0.3s ease-in;\n        transition: all 0.3s ease-in;\n        -webkit-transform-origin: 50% 7.5px;\n                transform-origin: 50% 7.5px; }\n      header ul > .functions > button {\n        background-color: transparent;\n        border: none; }\n  header .header_left {\n    float: left;\n    margin-right: 40px; }\n  header .header_right {\n    float: right;\n    margin-left: 40px; }\n\narticle {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-flex-direction: row;\n  height: calc(100% - 45px);\n  width: 100%; }\n  article .article_left {\n    width: 100%;\n    -ms-flex-negative: 1;\n        flex-shrink: 1;\n    -webkit-flex-shrink: 1;\n    height: 100%;\n    overflow: hidden; }\n    article .article_left > .nav_bottom {\n      background-color: #202020;\n      padding: 8px 25px;\n      box-sizing: border-box;\n      height: 35px;\n      color: #cacaca; }\n      article .article_left > .nav_bottom .download {\n        -webkit-transition: all 0.2s ease-in;\n        transition: all 0.2s ease-in; }\n        article .article_left > .nav_bottom .download:hover {\n          color: #ffffff; }\n      article .article_left > .nav_bottom .playtime {\n        float: right;\n        padding: 0 15px; }\n        article .article_left > .nav_bottom .playtime:after {\n          content: '';\n          display: block;\n          height: 16px;\n          width: 1px;\n          background-color: #363636;\n          float: right;\n          margin-right: -15px; }\n      article .article_left > .nav_bottom .studypeople {\n        float: right;\n        padding: 0 15px; }\n  article .article_right {\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    -webkit-flex-shrink: 0;\n    width: 0px;\n    height: 100%;\n    -webkit-transition: all 0.3s ease-in;\n    transition: all 0.3s ease-in; }\n  article > .checked {\n    width: 340px; }\n", ""]);
 
 	// exports
 
@@ -445,11 +445,11 @@
 	//     <ul>
 	//       <!-- 返回按钮 -->
 	//       <button type="button"  class="header_left size-14 cusor_hand"> < 返回</button>
-	//       <li class="header_left size-14">正在播放：</li>
-	//       <li class="header_left">总时长：</li>
-	//       <li class="header_left">已学时长：</li>
-	//       <li class="header_right">Hi，hjj黄姣姣</li>
-	//       <li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息(3)</li>
+	//       <li class="header_left size-14">正在播放：{{headerTitle}}</li>
+	//       <li class="header_left alltime">总时长：{{headerAllTime}}分钟</li>
+	//       <li class="header_left">已学时长：{{headerHaveTime}}分钟</li>
+	//       <li class="header_right functions">Hi，hjj黄姣姣 <button type="button" class="cusor_hand">【退出】</button><span></span></li>
+	//       <li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息({{headerMessage}})</li>
 	//     </ul>
 	//  </header>
 	//  <article>
@@ -481,7 +481,12 @@
 	  data: function data() {
 	    return {
 	      //右侧功能栏是否显示
-	      rightShow: true
+	      rightShow: true,
+	      //*****顶部数据区域
+	      headerTitle: '80,90后员工职业技能素养提升', //标题
+	      headerAllTime: 54, //总时长
+	      headerHaveTime: 28, //已用时长
+	      headerMessage: 3 //消息数量
 	    };
 	  },
 
@@ -565,7 +570,7 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\n.videoPlayer {\n  height: calc(100% - 35px);\n  width: 100%; }\n  .videoPlayer #video {\n    width: 100%;\n    height: 100%; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n::-webkit-scrollbar {\n  width: 10px;\n  height: 10px; }\n\n::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  border-radius: 5px;\n  background: #999999; }\n\n::-webkit-scrollbar-thumb {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.2); }\n\n::-webkit-scrollbar-thumb:hover {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.4); }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\n.videoPlayer {\n  height: calc(100% - 35px);\n  width: 100%; }\n  .videoPlayer #video {\n    width: 100%;\n    height: 100%; }\n", ""]);
 
 	// exports
 
@@ -581,7 +586,7 @@
 	});
 	// <template>
 	//   <div class="videoPlayer">
-	//     <video src="" controls="" preload="auto" poster="../../assets/images/videoplayer/video-content-poster.png" id="video" class="video-js vjs-default-skin vjs-big-play-centered">
+	//     <video src="" controls="" preload="auto" poster="../../assets/images/videoplayer/video-content-poster.jpg" id="video" class="video-js vjs-default-skin vjs-big-play-centered">
 	//
 	//     </video>
 	//   </div>
@@ -654,7 +659,7 @@
 	  events: {
 	    //通过父组件的中间传递，获取另一个子组件的数据
 	    'changesrc': function changesrc(data) {
-	      this.videoObj.dispose();
+	      // this.videoObj.dispose();
 	      this.videoReload(this.videoObj, data, 'video');
 	    }
 	  }
@@ -678,7 +683,7 @@
 /* 13 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"videoPlayer\">\n  <video src=\"\" controls=\"\" preload=\"auto\" poster=\"../../assets/images/videoplayer/video-content-poster.png\" id=\"video\" class=\"video-js vjs-default-skin vjs-big-play-centered\">\n\n  </video>\n</div>\n";
+	module.exports = "\n<div class=\"videoPlayer\">\n  <video src=\"\" controls=\"\" preload=\"auto\" poster=\"../../assets/images/videoplayer/video-content-poster.jpg\" id=\"video\" class=\"video-js vjs-default-skin vjs-big-play-centered\">\n\n  </video>\n</div>\n";
 
 /***/ },
 /* 14 */
@@ -686,7 +691,7 @@
 
 	var __vue_script__, __vue_template__
 	__webpack_require__(15)
-	__vue_script__ = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!babel-loader!./../../../node_modules/vue-loader/lib/selector.js?type=script&index=0!./player-rightselect.vue\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+	__vue_script__ = __webpack_require__(17)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
@@ -744,29 +749,747 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\n.selectList {\n  height: 100%;\n  width: 100%;\n  position: relative;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n  .selectList .nav_left {\n    position: absolute;\n    z-index: 999;\n    width: 53px;\n    height: 100%;\n    top: 0;\n    left: -54px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-display: flex;\n    -webkit-flex-direction: column;\n    position: absolute;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center; }\n    .selectList .nav_left > li {\n      color: #ffffff;\n      background-color: #292f33;\n      width: 54px;\n      height: 64px;\n      padding: 12px;\n      box-sizing: border-box;\n      line-height: 20px;\n      font-size: 14px;\n      margin-bottom: 8px;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n      .selectList .nav_left > li:hover {\n        background-color: #e43a3d; }\n    .selectList .nav_left > .select {\n      background-color: #e43a3d; }\n  .selectList .nav_right {\n    position: relative;\n    height: 100%;\n    width: 100%;\n    background-color: #161a1d;\n    overflow: hidden; }\n    .selectList .nav_right > li {\n      box-sizing: border-box;\n      width: 100%;\n      height: 100%;\n      position: absolute;\n      top: 0;\n      left: 0;\n      opacity: 0;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n    .selectList .nav_right > .isshow {\n      opacity: 1;\n      z-index: 999; }\n    .selectList .nav_right .courseList {\n      padding-top: 25px;\n      color: #b5b5b5; }\n      .selectList .nav_right .courseList > h1 {\n        font-size: 16px;\n        padding: 0 20px;\n        border-top: 1px solid #333739;\n        height: 60px;\n        line-height: 60px; }\n      .selectList .nav_right .courseList > ul {\n        padding: 0 20px;\n        height: calc(100% - 86px);\n        overflow-y: auto;\n        box-sizing: border-box; }\n        .selectList .nav_right .courseList > ul > li > h2 {\n          height: 30px;\n          line-height: 30px;\n          margin-bottom: 10px;\n          font-weight: 400; }\n        .selectList .nav_right .courseList > ul > li > ul {\n          padding: 0 15px; }\n          .selectList .nav_right .courseList > ul > li > ul > li {\n            height: 15px;\n            line-height: 15px;\n            margin: 25px 0;\n            -webkit-transition: all 0.2s ease-in;\n            transition: all 0.2s ease-in; }\n            .selectList .nav_right .courseList > ul > li > ul > li:hover {\n              color: #187fee; }\n            .selectList .nav_right .courseList > ul > li > ul > li:hover .iconfont {\n              color: #187fee; }\n            .selectList .nav_right .courseList > ul > li > ul > li .iconfont {\n              font-size: 14px; }\n          .selectList .nav_right .courseList > ul > li > ul > .select {\n            color: #187fee; }\n            .selectList .nav_right .courseList > ul > li > ul > .select .iconfont {\n              color: #187fee; }\n    .selectList .nav_right .myNote {\n      color: #b5b5b5;\n      padding-top: 25px; }\n      .selectList .nav_right .myNote > .input-area {\n        padding: 40px 25px;\n        box-sizing: border-box;\n        border-top: 1px solid #333739;\n        border-bottom: 1px solid #333739; }\n        .selectList .nav_right .myNote > .input-area > textarea {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 70px;\n          width: 100%;\n          padding: 5px;\n          box-sizing: border-box;\n          display: block;\n          margin-bottom: 12px;\n          resize: none; }\n        .selectList .nav_right .myNote > .input-area > input {\n          height: 15px;\n          width: 15px;\n          border-radius: 0;\n          margin-right: 5px;\n          float: left; }\n        .selectList .nav_right .myNote > .input-area > i {\n          display: block;\n          height: 15px;\n          line-height: 15px;\n          font-style: normal;\n          float: left; }\n        .selectList .nav_right .myNote > .input-area > button {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 20px;\n          width: 55px;\n          text-align: center;\n          line-height: 20px;\n          background-color: #e43a3d;\n          color: #ffffff;\n          border-radius: 0;\n          border: 0;\n          float: right; }\n      .selectList .nav_right .myNote > .list-area {\n        height: calc(100% - 184px); }\n        .selectList .nav_right .myNote > .list-area > .table-list {\n          height: 50px;\n          margin: 0 25px;\n          border-bottom: 1px solid #65737e;\n          font-size: 0; }\n          .selectList .nav_right .myNote > .list-area > .table-list > li {\n            height: 50px;\n            line-height: 50px;\n            text-align: center;\n            width: 80px;\n            display: inline-block;\n            -webkit-transition: color 0.2s ease-in;\n            transition: color 0.2s ease-in; }\n            .selectList .nav_right .myNote > .list-area > .table-list > li:hover {\n              color: #ffffff; }\n          .selectList .nav_right .myNote > .list-area > .table-list > .select {\n            border-bottom: 1px solid #e43a3d;\n            position: relative;\n            color: #ffffff; }\n            .selectList .nav_right .myNote > .list-area > .table-list > .select:after {\n              width: 0;\n              height: 0;\n              display: block;\n              content: '';\n              border: 4px solid #161a1d;\n              border-bottom-color: #e43a3d;\n              position: absolute;\n              bottom: 0;\n              left: 38px; }\n        .selectList .nav_right .myNote > .list-area > .note-list {\n          height: calc(100% - 51px);\n          position: relative; }\n          .selectList .nav_right .myNote > .list-area > .note-list > li {\n            height: 100%;\n            box-sizing: border-box;\n            overflow-y: auto;\n            position: absolute;\n            top: 0;\n            left: 0;\n            opacity: 0;\n            -webkit-transition: all 0.3s ease-in;\n            transition: all 0.3s ease-in; }\n            .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li {\n              padding: 22px 25px 16px 25px;\n              border-bottom: 1px dashed #909090; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > img {\n                height: 35px;\n                width: 35px;\n                float: left;\n                border-radius: 50%;\n                display: block;\n                margin-right: 10px; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > h5 {\n                float: left;\n                height: 35px;\n                line-height: 35px;\n                width: calc(100% - 45px);\n                color: #8498a8;\n                font-weight: 400; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > p {\n                line-height: 25px;\n                margin: 5px 0;\n                float: left; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > span {\n                float: left; }\n          .selectList .nav_right .myNote > .list-area > .note-list > .select {\n            opacity: 1;\n            z-index: 999; }\n    .selectList .nav_right .myAnswer {\n      color: #b5b5b5;\n      padding-top: 25px; }\n      .selectList .nav_right .myAnswer > .input-area {\n        padding: 40px 25px;\n        box-sizing: border-box;\n        border-top: 1px solid #333739;\n        border-bottom: 1px solid #333739; }\n        .selectList .nav_right .myAnswer > .input-area > textarea {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 70px;\n          width: 100%;\n          padding: 5px;\n          box-sizing: border-box;\n          display: block;\n          margin-bottom: 12px;\n          resize: none; }\n        .selectList .nav_right .myAnswer > .input-area > span {\n          font-size: 12px;\n          float: left; }\n        .selectList .nav_right .myAnswer > .input-area > button {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 20px;\n          width: 55px;\n          text-align: center;\n          line-height: 20px;\n          background-color: #e43a3d;\n          color: #ffffff;\n          border-radius: 0;\n          border: 0;\n          float: right; }\n      .selectList .nav_right .myAnswer > .list-area {\n        height: calc(100% - 184px); }\n        .selectList .nav_right .myAnswer > .list-area > .table-list {\n          height: 50px;\n          margin: 0 25px;\n          border-bottom: 1px solid #65737e;\n          font-size: 0; }\n          .selectList .nav_right .myAnswer > .list-area > .table-list > li {\n            height: 50px;\n            line-height: 50px;\n            text-align: center;\n            width: 80px;\n            display: inline-block;\n            -webkit-transition: color 0.2s ease-in;\n            transition: color 0.2s ease-in; }\n            .selectList .nav_right .myAnswer > .list-area > .table-list > li:hover {\n              color: #ffffff; }\n          .selectList .nav_right .myAnswer > .list-area > .table-list > .select {\n            border-bottom: 1px solid #e43a3d;\n            position: relative;\n            color: #ffffff; }\n            .selectList .nav_right .myAnswer > .list-area > .table-list > .select:after {\n              width: 0;\n              height: 0;\n              display: block;\n              content: '';\n              border: 4px solid #161a1d;\n              border-bottom-color: #e43a3d;\n              position: absolute;\n              bottom: 0;\n              left: 38px; }\n        .selectList .nav_right .myAnswer > .list-area > .aq-list {\n          height: calc(100% - 51px);\n          position: relative; }\n          .selectList .nav_right .myAnswer > .list-area > .aq-list > li {\n            height: 100%;\n            box-sizing: border-box;\n            overflow-y: auto;\n            position: absolute;\n            top: 0;\n            left: 0;\n            opacity: 0;\n            -webkit-transition: all 0.3s ease-in;\n            transition: all 0.3s ease-in; }\n            .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li {\n              padding: 22px 25px 16px 25px;\n              border-bottom: 1px dashed #909090; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > img {\n                height: 35px;\n                width: 35px;\n                float: left;\n                border-radius: 50%;\n                display: block;\n                margin-right: 10px; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > h5 {\n                float: left;\n                height: 35px;\n                line-height: 35px;\n                width: calc(100% - 45px);\n                color: #8498a8;\n                font-weight: 400; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > p {\n                line-height: 25px;\n                margin: 5px 0;\n                float: left; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > span {\n                float: left; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > button {\n                float: right;\n                background-color: transparent;\n                border: none;\n                color: #b5b5b5;\n                -webkit-transition: all 0.2s ease-in;\n                transition: all 0.2s ease-in; }\n                .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > button:hover {\n                  color: #ffffff; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > i {\n                float: right;\n                margin-right: 5px; }\n          .selectList .nav_right .myAnswer > .list-area > .aq-list > .select {\n            opacity: 1;\n            z-index: 999; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n::-webkit-scrollbar {\n  width: 10px;\n  height: 10px; }\n\n::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  border-radius: 5px;\n  background: #999999; }\n\n::-webkit-scrollbar-thumb {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.2); }\n\n::-webkit-scrollbar-thumb:hover {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.4); }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1472897644_4191945.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1472897644_4191945.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\n.selectList {\n  height: 100%;\n  width: 100%;\n  position: relative;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n  .selectList .nav_left {\n    position: absolute;\n    z-index: 999;\n    width: 53px;\n    height: 100%;\n    top: 0;\n    left: -54px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-display: flex;\n    -webkit-flex-direction: column;\n    position: absolute;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center; }\n    .selectList .nav_left > li {\n      color: #ffffff;\n      background-color: #292f33;\n      width: 54px;\n      height: 64px;\n      padding: 12px;\n      box-sizing: border-box;\n      line-height: 20px;\n      font-size: 14px;\n      margin-bottom: 8px;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n      .selectList .nav_left > li:hover {\n        background-color: #e43a3d; }\n    .selectList .nav_left > .select {\n      background-color: #e43a3d; }\n  .selectList .nav_right {\n    position: relative;\n    height: 100%;\n    width: 100%;\n    background-color: #161a1d;\n    overflow: hidden; }\n    .selectList .nav_right > li {\n      box-sizing: border-box;\n      width: 100%;\n      height: 100%;\n      position: absolute;\n      top: 0;\n      left: 0;\n      opacity: 0;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n    .selectList .nav_right > .isshow {\n      opacity: 1;\n      z-index: 999; }\n    .selectList .nav_right .courseList {\n      padding-top: 25px;\n      color: #b5b5b5; }\n      .selectList .nav_right .courseList > h1 {\n        font-size: 16px;\n        padding: 0 20px;\n        border-top: 1px solid #333739;\n        height: 60px;\n        line-height: 60px; }\n      .selectList .nav_right .courseList > ul {\n        padding: 0 20px;\n        height: calc(100% - 86px);\n        overflow-y: auto;\n        box-sizing: border-box; }\n        .selectList .nav_right .courseList > ul > li > h2 {\n          height: 30px;\n          line-height: 30px;\n          margin-bottom: 10px;\n          font-weight: 400; }\n        .selectList .nav_right .courseList > ul > li > ul {\n          padding: 0 15px; }\n          .selectList .nav_right .courseList > ul > li > ul > li {\n            height: 15px;\n            line-height: 15px;\n            margin: 25px 0;\n            -webkit-transition: all 0.2s ease-in;\n            transition: all 0.2s ease-in; }\n            .selectList .nav_right .courseList > ul > li > ul > li:hover {\n              color: #187fee; }\n            .selectList .nav_right .courseList > ul > li > ul > li:hover .iconfont {\n              color: #187fee; }\n            .selectList .nav_right .courseList > ul > li > ul > li .iconfont {\n              font-size: 14px; }\n          .selectList .nav_right .courseList > ul > li > ul > .select {\n            color: #187fee; }\n            .selectList .nav_right .courseList > ul > li > ul > .select .iconfont {\n              color: #187fee; }\n    .selectList .nav_right .myNote {\n      color: #b5b5b5;\n      padding-top: 25px; }\n      .selectList .nav_right .myNote > .input-area {\n        padding: 40px 25px;\n        box-sizing: border-box;\n        border-top: 1px solid #333739;\n        border-bottom: 1px solid #333739; }\n        .selectList .nav_right .myNote > .input-area > textarea {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 70px;\n          width: 100%;\n          padding: 5px;\n          box-sizing: border-box;\n          display: block;\n          margin-bottom: 12px;\n          resize: none; }\n        .selectList .nav_right .myNote > .input-area > input {\n          height: 15px;\n          width: 15px;\n          border-radius: 0;\n          margin-right: 5px;\n          float: left; }\n        .selectList .nav_right .myNote > .input-area > i {\n          display: block;\n          height: 15px;\n          line-height: 15px;\n          font-style: normal;\n          float: left; }\n        .selectList .nav_right .myNote > .input-area > button {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 20px;\n          width: 55px;\n          text-align: center;\n          line-height: 20px;\n          background-color: #e43a3d;\n          color: #ffffff;\n          border-radius: 0;\n          border: 0;\n          float: right; }\n      .selectList .nav_right .myNote > .list-area {\n        height: calc(100% - 184px); }\n        .selectList .nav_right .myNote > .list-area > .table-list {\n          height: 50px;\n          margin: 0 25px;\n          border-bottom: 1px solid #65737e;\n          font-size: 0; }\n          .selectList .nav_right .myNote > .list-area > .table-list > li {\n            height: 50px;\n            line-height: 50px;\n            text-align: center;\n            width: 80px;\n            display: inline-block;\n            -webkit-transition: color 0.2s ease-in;\n            transition: color 0.2s ease-in; }\n            .selectList .nav_right .myNote > .list-area > .table-list > li:hover {\n              color: #ffffff; }\n          .selectList .nav_right .myNote > .list-area > .table-list > .select {\n            border-bottom: 1px solid #e43a3d;\n            position: relative;\n            color: #ffffff; }\n            .selectList .nav_right .myNote > .list-area > .table-list > .select:after {\n              width: 0;\n              height: 0;\n              display: block;\n              content: '';\n              border: 4px solid #161a1d;\n              border-bottom-color: #e43a3d;\n              position: absolute;\n              bottom: 0;\n              left: 38px; }\n        .selectList .nav_right .myNote > .list-area > .note-list {\n          height: calc(100% - 51px);\n          position: relative; }\n          .selectList .nav_right .myNote > .list-area > .note-list > li {\n            height: 100%;\n            box-sizing: border-box;\n            overflow-y: auto;\n            position: absolute;\n            top: 0;\n            left: 0;\n            opacity: 0;\n            -webkit-transition: all 0.3s ease-in;\n            transition: all 0.3s ease-in; }\n            .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li {\n              padding: 22px 25px 16px 25px;\n              border-bottom: 1px dashed #909090; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > img {\n                height: 35px;\n                width: 35px;\n                float: left;\n                border-radius: 50%;\n                display: block;\n                margin-right: 10px; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > h5 {\n                float: left;\n                height: 35px;\n                line-height: 35px;\n                width: calc(100% - 45px);\n                color: #8498a8;\n                font-weight: 400; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > p {\n                line-height: 25px;\n                margin: 5px 0;\n                float: left;\n                display: block;\n                width: 100%; }\n              .selectList .nav_right .myNote > .list-area > .note-list > li > ul > li > span {\n                float: left; }\n          .selectList .nav_right .myNote > .list-area > .note-list > .select {\n            opacity: 1;\n            z-index: 999; }\n    .selectList .nav_right .myAnswer {\n      color: #b5b5b5;\n      padding-top: 25px; }\n      .selectList .nav_right .myAnswer > .input-area {\n        padding: 40px 25px;\n        box-sizing: border-box;\n        border-top: 1px solid #333739;\n        border-bottom: 1px solid #333739; }\n        .selectList .nav_right .myAnswer > .input-area > textarea {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 70px;\n          width: 100%;\n          padding: 5px;\n          box-sizing: border-box;\n          display: block;\n          margin-bottom: 12px;\n          resize: none; }\n        .selectList .nav_right .myAnswer > .input-area > span {\n          font-size: 12px;\n          float: left; }\n        .selectList .nav_right .myAnswer > .input-area > button {\n          font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n          height: 20px;\n          width: 55px;\n          text-align: center;\n          line-height: 20px;\n          background-color: #e43a3d;\n          color: #ffffff;\n          border-radius: 0;\n          border: 0;\n          float: right; }\n      .selectList .nav_right .myAnswer > .list-area {\n        height: calc(100% - 184px); }\n        .selectList .nav_right .myAnswer > .list-area > .table-list {\n          height: 50px;\n          margin: 0 25px;\n          border-bottom: 1px solid #65737e;\n          font-size: 0; }\n          .selectList .nav_right .myAnswer > .list-area > .table-list > li {\n            height: 50px;\n            line-height: 50px;\n            text-align: center;\n            width: 80px;\n            display: inline-block;\n            -webkit-transition: color 0.2s ease-in;\n            transition: color 0.2s ease-in; }\n            .selectList .nav_right .myAnswer > .list-area > .table-list > li:hover {\n              color: #ffffff; }\n          .selectList .nav_right .myAnswer > .list-area > .table-list > .select {\n            border-bottom: 1px solid #e43a3d;\n            position: relative;\n            color: #ffffff; }\n            .selectList .nav_right .myAnswer > .list-area > .table-list > .select:after {\n              width: 0;\n              height: 0;\n              display: block;\n              content: '';\n              border: 4px solid #161a1d;\n              border-bottom-color: #e43a3d;\n              position: absolute;\n              bottom: 0;\n              left: 38px; }\n        .selectList .nav_right .myAnswer > .list-area > .aq-list {\n          height: calc(100% - 51px);\n          position: relative; }\n          .selectList .nav_right .myAnswer > .list-area > .aq-list > li {\n            height: 100%;\n            box-sizing: border-box;\n            overflow-y: auto;\n            position: absolute;\n            top: 0;\n            left: 0;\n            opacity: 0;\n            -webkit-transition: all 0.3s ease-in;\n            transition: all 0.3s ease-in; }\n            .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li {\n              padding: 22px 25px 16px 25px;\n              border-bottom: 1px dashed #909090; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > img {\n                height: 35px;\n                width: 35px;\n                float: left;\n                border-radius: 50%;\n                display: block;\n                margin-right: 10px; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > h5 {\n                float: left;\n                height: 35px;\n                line-height: 35px;\n                width: calc(100% - 45px);\n                color: #8498a8;\n                font-weight: 400; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > p {\n                line-height: 25px;\n                margin: 5px 0;\n                float: left;\n                display: block;\n                width: 100%; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > span {\n                float: left; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > button {\n                float: right;\n                background-color: transparent;\n                border: none;\n                color: #b5b5b5;\n                -webkit-transition: all 0.2s ease-in;\n                transition: all 0.2s ease-in; }\n                .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > button:hover {\n                  color: #ffffff; }\n              .selectList .nav_right .myAnswer > .list-area > .aq-list > li > ul > li > i {\n                float: right;\n                margin-right: 5px; }\n          .selectList .nav_right .myAnswer > .list-area > .aq-list > .select {\n            opacity: 1;\n            z-index: 999; }\n\n.vjs-has-started .vjs-control-bar {\n  z-index: 1000; }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 17 */,
-/* 18 */
-/***/ function(module, exports, __webpack_require__) {
+/* 17 */
+/***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"selectList\">\n  <!-- 左侧选择按钮 -->\n  <ul class=\"nav_left size-14\">\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.course.value} v-on:click='rightCheck(tabelcheck.leftcheck.course)'>课程目录</li>\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.note.value} v-on:click='rightCheck(tabelcheck.leftcheck.note)'>我的笔记</li>\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.answer.value} v-on:click='rightCheck(tabelcheck.leftcheck.answer)' >我的问答</li>\n  </ul>\n  <!-- 右侧主体部分 -->\n   <ul class=\"nav_right\">\n     <!-- 课程目录 -->\n     <li class=\"courseList\" v-bind:class={'isshow':tabelcheck.leftcheck.course.value}>\n       <!-- 课程标题 -->\n       <h1 class=\"overflow_pre size-16\">{{courseList.title}}</h1>\n       <ul>\n         <li v-for=\"item in courseList.childernone\">\n           <h2 class=\"overflow_pre size-14\">第一课时&nbsp;&nbsp;{{item.title}}</h2>\n           <ul>\n             <li class=\"overflow_pre size-12 cusor_hand\"  v-for=\"ite in item.childern\"  v-bind:class={'select':ite.select}  v-on:click=\"videocheck(ite)\"><i class=\"iconfont \">&#xe600</i>&nbsp;{{$index+1}}&nbsp;{{ite.title}}&nbsp;&nbsp;({{ite.alltime}})</li>\n             <!-- <li class=\"overflow_pre size-12 cusor_hand\"><i class=\"iconfont \">&#xe600</i>8090后员工管理方法(50:25)</li>\n             <li class=\"overflow_pre size-12 cusor_hand\"><i class=\"iconfont \">&#xe600</i>8090后员工管理方法(50:25)</li> -->\n           </ul>\n         </li>\n       </ul>\n     </li>\n     <!-- 我的笔记 -->\n     <li class=\"myNote\" v-bind:class={'isshow':tabelcheck.leftcheck.note.value}>\n       <!-- 输入框区域 -->\n       <div class=\"input-area clear\">\n          <textarea  placeholder=\"请输入你的笔记内容...\" class=\"size-12\" v-model=\"noteInput.text\"></textarea>\n          <input type=\"checkbox\" value=\"\" v-model=\"noteInput.secret\"><i class=\"size-14\">私密</i>\n          <button type=\"button\" class=\"size-14\">发布</button>\n       </div>\n       <!-- 笔记列表 -->\n       <div class=\"list-area\">\n          <ul class=\"table-list\">\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.notecheck.mynote.value} v-on:click=\"noteCheck(tabelcheck.notecheck.mynote)\">全部笔记</li>\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.notecheck.allnote.value} v-on:click=\"noteCheck(tabelcheck.notecheck.allnote)\">我的笔记</li>\n          </ul>\n          <ul class=\"note-list\">\n            <!-- 我的笔记 -->\n            <li class=\"mynote\" v-bind:class={'select':tabelcheck.notecheck.mynote.value} >\n              <ul>\n                <li class=\"clear\">\n                  <img src=\"" + __webpack_require__(19) + "\" alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">寂寞星球的玫瑰</h5>\n                  <p class=\"size-12\">\n                    好记性不如烂笔头所以多记笔记我也是凑字符的、哈\n                    哈哈哈哈？\n                  </p>\n                  <span class=\"time size-12\">2016-01-02  10:39 </span>\n                </li>\n              </ul>\n            </li>\n            <!-- 全部笔记 -->\n            <li class=\"allnote\" v-bind:class={'select':tabelcheck.notecheck.allnote.value} >\n              <ul>\n                <li class=\"clear\">\n                  <img src=\"" + __webpack_require__(19) + "\" alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">寂寞星球的玫瑰</h5>\n                  <p class=\"size-12\">\n                    好记性不如烂笔头所以多记笔记我也是凑字符的、哈\n                    哈哈哈哈？\n                  </p>\n                  <span class=\"time size-12\">2016-01-02  10:39 </span>\n                </li>\n              </ul>\n            </li>\n          </ul>\n       </div>\n     </li>\n     <!-- 我的问答 -->\n     <li class=\"myAnswer\" v-bind:class={'isshow':tabelcheck.leftcheck.answer.value}>\n       <!-- 问题输入框区域 -->\n       <div class=\"input-area clear\">\n          <textarea  placeholder=\"请输入你的提问内容...\" class=\"size-12\" v-model=\"answerInput\"></textarea>\n          <span>最多可以输入100字</span>\n          <button type=\"button\" class=\"size-14\">发布</button>\n       </div>\n       <!-- 问答列表 -->\n       <div class=\"list-area\">\n          <ul class=\"table-list\">\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.answercheck.myanswer.value} v-on:click=\"answerCheck(tabelcheck.answercheck.myanswer)\">全部问答</li>\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.answercheck.allanswer.value} v-on:click=\"answerCheck(tabelcheck.answercheck.allanswer)\">我的问答</li>\n          </ul>\n          <ul class=\"aq-list\">\n            <!-- 我的问答 -->\n            <li class=\"myaq\" v-bind:class={'select':tabelcheck.answercheck.myanswer.value}>\n              <ul>\n                <li class=\"clear\">\n                  <img src=\"" + __webpack_require__(19) + "\" alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">寂寞星球的玫瑰</h5>\n                  <p class=\"size-12\">\n                    好记性不如烂笔头所以多记笔记我也是凑字符的、哈\n                    哈哈哈哈？\n                  </p>\n                  <span class=\"time size-12\">2016-01-02  10:39 </span>\n                  <button type=\"button\" class=\"size-12 cusor_hand\">回复</button>\n                  <i class=\"iconfont size-12\">&#xe603</i>\n                </li>\n              </ul>\n            </li>\n            <!-- 全部问答 -->\n            <li class=\"allaq\" v-bind:class={'select':tabelcheck.answercheck.allanswer.value}>\n              <ul>\n                <li class=\"clear\">\n                  <img src=\"" + __webpack_require__(19) + "\" alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">寂寞星球的玫瑰</h5>\n                  <p class=\"size-12\">\n                    好记性不如烂笔头所以多记笔记我也是凑字符的、哈\n                    哈哈哈哈？\n                  </p>\n                  <span class=\"time size-12\">2016-01-02  10:39 </span>\n                  <button type=\"button\" class=\"size-12 cusor_hand\">回复</button>\n                  <i class=\"iconfont size-12\">&#xe603</i>\n                </li>\n              </ul>\n            </li>\n          </ul>\n       </div>\n     </li>\n   </ul>\n</div>\n";
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	// <template>
+	//   <div class="selectList">
+	//     <!-- 左侧选择按钮 -->
+	//     <ul class="nav_left size-14">
+	//         <li class="cusor_hand" v-bind:class={'select':tabelcheck.leftcheck.course.value} v-on:click='rightCheck(tabelcheck.leftcheck.course)'>课程目录</li>
+	//         <li class="cusor_hand" v-bind:class={'select':tabelcheck.leftcheck.note.value} v-on:click='rightCheck(tabelcheck.leftcheck.note)'>我的笔记</li>
+	//         <li class="cusor_hand" v-bind:class={'select':tabelcheck.leftcheck.answer.value} v-on:click='rightCheck(tabelcheck.leftcheck.answer)' >我的问答</li>
+	//     </ul>
+	//     <!-- 右侧主体部分 -->
+	//      <ul class="nav_right">
+	//        <!-- 课程目录 -->
+	//        <li class="courseList" v-bind:class={'isshow':tabelcheck.leftcheck.course.value}>
+	//          <!-- 课程标题 -->
+	//          <h1 class="overflow_pre size-16">{{courseList.title}}</h1>
+	//          <ul>
+	//            <li v-for="item in courseList.childernone">
+	//              <h2 class="overflow_pre size-14">第一课时&nbsp;&nbsp;{{item.title}}</h2>
+	//              <ul>
+	//                <li class="overflow_pre size-12 cusor_hand"  v-for="ite in item.childern"  v-bind:class={'select':ite.select}  v-on:click="videocheck(ite)"><i class="iconfont ">&#xe600</i>&nbsp;{{$index+1}}&nbsp;{{ite.title}}&nbsp;&nbsp;({{ite.alltime}})</li>
+	//                <!-- <li class="overflow_pre size-12 cusor_hand"><i class="iconfont ">&#xe600</i>8090后员工管理方法(50:25)</li>
+	//                <li class="overflow_pre size-12 cusor_hand"><i class="iconfont ">&#xe600</i>8090后员工管理方法(50:25)</li> -->
+	//              </ul>
+	//            </li>
+	//          </ul>
+	//        </li>
+	//        <!-- 我的笔记 -->
+	//        <li class="myNote" v-bind:class={'isshow':tabelcheck.leftcheck.note.value}>
+	//          <!-- 输入框区域 -->
+	//          <div class="input-area clear">
+	//             <textarea  placeholder="请输入你的笔记内容..." class="size-12" v-model="noteInput.text"></textarea>
+	//             <input type="checkbox" value="" v-model="noteInput.secret"><i class="size-14">私密</i>
+	//             <button type="button" class="size-14 cusor_hand" v-on:click="publishGet(noteInput.text,noteInput.secret)">发布</button>
+	//          </div>
+	//          <!-- 笔记列表 -->
+	//          <div class="list-area">
+	//             <ul class="table-list">
+	//               <li class="cusor_hand size-14" v-bind:class={'select':tabelcheck.notecheck.allnote.value} v-on:click="noteCheck(tabelcheck.notecheck.allnote)">全部笔记</li>
+	//               <li class="cusor_hand size-14" v-bind:class={'select':tabelcheck.notecheck.mynote.value} v-on:click="noteCheck(tabelcheck.notecheck.mynote)">我的笔记</li>
+	//             </ul>
+	//             <ul class="note-list">
+	//               <!-- 全部笔记 -->
+	//               <li class="allnote" v-bind:class={'select':tabelcheck.notecheck.allnote.value} >
+	//                 <ul>
+	//                   <li class="clear" v-for="item in noteData.allnote">
+	//                     <img src={{item.img}} alt="img" />
+	//                     <h5 class="size-14 overflow_pre">{{item.title}}</h5>
+	//                     <p class="size-12">
+	//                       {{item.text}}
+	//                     </p>
+	//                     <span class="time size-12">{{item.time}} </span>
+	//                   </li>
+	//                 </ul>
+	//               </li>
+	//               <!-- 我的笔记 -->
+	//               <li class="mynote" v-bind:class={'select':tabelcheck.notecheck.mynote.value} >
+	//                 <ul>
+	//                   <li class="clear" v-for="item in noteData.mynote">
+	//                     <img src={{item.img}} alt="img" />
+	//                     <h5 class="size-14 overflow_pre">{{item.title}}</h5>
+	//                     <p class="size-12">
+	//                       {{item.text}}
+	//                     </p>
+	//                     <span class="time size-12">{{item.time}} </span>
+	//                   </li>
+	//                 </ul>
+	//               </li>
+	//             </ul>
+	//          </div>
+	//        </li>
+	//        <!-- 我的问答 -->
+	//        <li class="myAnswer" v-bind:class={'isshow':tabelcheck.leftcheck.answer.value}>
+	//          <!-- 问题输入框区域 -->
+	//          <div class="input-area clear">
+	//             <textarea  placeholder="请输入你的提问内容..." class="size-12" v-model="answerInput"></textarea>
+	//             <span>最多可以输入100字</span>
+	//             <button type="button" class="size-14 cusor_hand" v-on:click="publishanswer(answerInput)">发布</button>
+	//          </div>
+	//          <!-- 问答列表 -->
+	//          <div class="list-area">
+	//             <ul class="table-list">
+	//               <li class="cusor_hand size-14" v-bind:class={'select':tabelcheck.answercheck.allanswer.value} v-on:click="answerCheck(tabelcheck.answercheck.allanswer)">全部问答</li>
+	//               <li class="cusor_hand size-14" v-bind:class={'select':tabelcheck.answercheck.myanswer.value} v-on:click="answerCheck(tabelcheck.answercheck.myanswer)">我的问答</li>
+	//             </ul>
+	//             <ul class="aq-list">
+	//               <!-- 全部问答 -->
+	//               <li class="allaq" v-bind:class={'select':tabelcheck.answercheck.allanswer.value}>
+	//                 <ul>
+	//                   <li class="clear" v-for="item in answerData.allanswer">
+	//                     <img src={{item.img}} alt="img" />
+	//                     <h5 class="size-14 overflow_pre">{{item.title}}</h5>
+	//                     <p class="size-12">
+	//                       {{item.text}}
+	//                     </p>
+	//                     <span class="time size-12">{{item.time}} </span>
+	//                     <button type="button" class="size-12 cusor_hand">回复</button>
+	//                     <i class="iconfont size-12">&#xe603</i>
+	//                   </li>
+	//                 </ul>
+	//               </li>
+	//               <!-- 我的问答 -->
+	//               <li class="myaq" v-bind:class={'select':tabelcheck.answercheck.myanswer.value}>
+	//                 <ul>
+	//                   <li class="clear" v-for="item in answerData.myanswer">
+	//                     <img src={{item.img}} alt="img" />
+	//                     <h5 class="size-14 overflow_pre">{{item.title}}</h5>
+	//                     <p class="size-12">
+	//                       {{item.text}}
+	//                     </p>
+	//                     <span class="time size-12">{{item.time}} </span>
+	//                     <button type="button" class="size-12 cusor_hand">回复</button>
+	//                     <i class="iconfont size-12">&#xe603</i>
+	//                   </li>
+	//                 </ul>
+	//               </li>
+	//             </ul>
+	//          </div>
+	//        </li>
+	//      </ul>
+	//   </div>
+	// </template>
+	//
+	// <script>
+	exports.default = {
+	  // 数据区
+	  data: function data() {
+	    return {
+	      charctar: {
+	        imgsrc: '../../assets/images/videoplayer/video-content-charcter.png',
+	        name: '寂寞星球的玫瑰'
+	      },
+	      /****
+	      课程列表数据
+	      ****/
+	      courseList: {
+	        title: '8090后员工管理方法',
+	        //一级目录
+	        childernone: [{
+	          title: '名字不知道是啥王总告之',
+	          childern: [{
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }]
+	        }, {
+	          title: '名字不知道是啥王总告之',
+	          childern: [{
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }]
+	        }, {
+	          title: '名字不知道是啥王总告之',
+	          childern: [{
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }]
+	        }, {
+	          title: '名字不知道是啥王总告之',
+	          childern: [{
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }]
+	        }, {
+	          title: '名字不知道是啥王总告之',
+	          childern: [{
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }, {
+	            title: '8090后员工的管理方法',
+	            alltime: 50.25,
+	            videodata: [{
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001.m3u8?SD',
+	              type: 'application/x-mpegURL',
+	              label: '标清',
+	              res: 360
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-2.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '高清',
+	              res: 720
+	            }, {
+	              src: 'http://o6opd2vt8.bkt.clouddn.com/test/0001-3.m3u8?HD',
+	              type: 'application/x-mpegURL',
+	              label: '超清',
+	              res: 1080
+	            }],
+	            select: false
+	          }]
+	        }]
+	      },
+	      /****
+	      我的笔记部分
+	      ****/
+	      //**********输入框
+	      noteInput: {
+	        text: '',
+	        //是否是私密状态
+	        secret: false
+	      },
+	      //*********数据部分
+	      noteData: {
+	        //所有笔记
+	        allnote: [{
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '全部笔记',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '全部笔记',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }],
+	        //我的笔记
+	        mynote: [{
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '我的笔记',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }]
+	      },
+	      /****
+	      我的问答部分
+	      ****/
+	      //**********输入框
+	      answerInput: 'sdfas',
+	      //********数据部分
+	      answerData: {
+	        //所有笔记
+	        allanswer: [{
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }],
+	        //我的笔记
+	        myanswer: [{
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }, {
+	          img: '../../assets/images/videoplayer/video-content-charcter.png',
+	          title: '寂寞星球的玫瑰',
+	          text: '好记性不如烂笔头所以多记笔记我也是凑字符的、哈哈哈哈哈？',
+	          time: '2016-01-02 10:39'
+	        }]
+	      },
+	      /***
+	      页面元素切换数据
+	      ***/
+	      tabelcheck: {
+	        // 课程目录，笔记和问答的切换
+	        leftcheck: {
+	          course: { value: false },
+	          note: { value: true },
+	          answer: { value: false }
+	        },
+	        // 我的笔记
+	        notecheck: {
+	          mynote: { value: false },
+	          allnote: { value: true }
+	        },
+	        // 我的问答
+	        answercheck: {
+	          myanswer: { value: false },
+	          allanswer: { value: true }
+	        }
+	      }
+
+	    };
+	  },
+
+	  // 方法区
+	  methods: {
+	    /****
+	    视屏切换功能
+	    ****/
+	    videocheck: function videocheck(item) {
+	      //循环数组，清除所有的列表点击样式
+	      var num = this.courseList.childernone;
+	      for (var i = 0; i < num.length; i++) {
+	        for (var j = 0; j < num[i].childern.length; j++) {
+	          num[i].childern[j].select = false;
+	        }
+	      };
+	      //将当前列表的显示样式设置为被点击状态
+	      item.select = true;
+	      //子组件冒泡事件，将视屏数据传送过去
+	      this.$dispatch('changevideo', item.videodata);
+	    },
+
+	    /****
+	    笔记和问答的切换
+	    ****/
+	    noteCheck: function noteCheck(item) {
+	      if (!item.value) {
+	        this.tabelcheck.notecheck.mynote.value = false;
+	        this.tabelcheck.notecheck.allnote.value = false;
+	        item.value = true;
+	      }
+	    },
+	    answerCheck: function answerCheck(item) {
+	      if (!item.value) {
+	        this.tabelcheck.answercheck.myanswer.value = false;
+	        this.tabelcheck.answercheck.allanswer.value = false;
+	        item.value = true;
+	      }
+	    },
+
+	    /****
+	    发表提问和发表笔记
+	    ****/
+	    //笔记
+	    publishGet: function publishGet(text, type) {
+	      //清除空格
+	      text = text.trim();
+	      //当真是存在数据时
+	      if (text) {
+	        //发送后开始使用ajax
+	        var newdata = {
+	          img: this.charctar.imgsrc,
+	          title: this.charctar.name,
+	          text: this.noteInput.text,
+	          time: this.getDate()
+	        };
+	        //当当前状态处于私密性质，下面可以使用ajax进行数据获取
+	        if (type) {
+	          this.noteData.mynote.push(newdata);
+	        } else {
+	          this.noteData.allnote.push(newdata);
+	        };
+	        //清空输入框内容
+	        this.noteInput.text = '';
+	      }
+	    },
+
+	    //提问
+	    publishanswer: function publishanswer(text) {
+	      //清除空格
+	      text = text.trim();
+	      //当真是存在数据时
+	      if (text) {
+	        //发送后开始使用ajax
+	        var newdata = {
+	          img: this.charctar.imgsrc,
+	          title: this.charctar.name,
+	          text: this.answerInput,
+	          time: this.getDate()
+	        };
+	        this.answerData.allanswer.push(newdata);
+	        this.answerData.myanswer.push(newdata);
+	        this.answerInput = '';
+	      }
+	    },
+
+	    //时间格式化函数
+	    getDate: function getDate() {
+	      var date = new Date();
+	      var year = date.getFullYear();
+	      var month = date.getMonth() + 1;
+	      var day = date.getDate();
+	      var hours = date.getHours();
+	      var minutes = date.getMinutes();
+	      return year + '-' + month + '-' + day + '  ' + hours + ':' + minutes;
+	    },
+
+	    /****
+	    右侧显示区域的切换
+	    *****/
+	    rightCheck: function rightCheck(item) {
+	      //假设处于显示状态，就清除他的显示，否则先去除其他的显示，再将其显示
+	      if (item.value == true) {
+	        item.value = false;
+	        //自定义事件，通知子组件改变状态
+	        this.$dispatch('right_show');
+	      } else {
+	        //所有的数据先设置为不显示
+	        var result = 0;
+	        //如果所有的按钮都处于未被点击状态，那么
+	        for (var i in this.tabelcheck.leftcheck) {
+	          if (this.tabelcheck.leftcheck[i].value == false) {
+	            result++;
+	          }
+	        };
+	        if (result == 3) {
+	          this.$dispatch('right_show');
+	          item.value = true;
+	        } else {
+	          for (var i in this.tabelcheck.leftcheck) {
+	            this.tabelcheck.leftcheck[i].value = false;
+	          };
+	          item.value = true;
+	        }
+	      }
+	    }
+	  }
+	};
+	// </script>
+	//
+	// <!-- Add "scoped" attribute to limit CSS to this component only -->
+	// <style rel="stylesheet/scss" lang='sass'>
+	//  @import "../../sass/videoplayer/player-rightselect";
+	//    .vjs-has-started .vjs-control-bar{
+	//      z-index:1000
+	//    }
+	// </style>
+
+/***/ },
+/* 18 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"selectList\">\n  <!-- 左侧选择按钮 -->\n  <ul class=\"nav_left size-14\">\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.course.value} v-on:click='rightCheck(tabelcheck.leftcheck.course)'>课程目录</li>\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.note.value} v-on:click='rightCheck(tabelcheck.leftcheck.note)'>我的笔记</li>\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.answer.value} v-on:click='rightCheck(tabelcheck.leftcheck.answer)' >我的问答</li>\n  </ul>\n  <!-- 右侧主体部分 -->\n   <ul class=\"nav_right\">\n     <!-- 课程目录 -->\n     <li class=\"courseList\" v-bind:class={'isshow':tabelcheck.leftcheck.course.value}>\n       <!-- 课程标题 -->\n       <h1 class=\"overflow_pre size-16\">{{courseList.title}}</h1>\n       <ul>\n         <li v-for=\"item in courseList.childernone\">\n           <h2 class=\"overflow_pre size-14\">第一课时&nbsp;&nbsp;{{item.title}}</h2>\n           <ul>\n             <li class=\"overflow_pre size-12 cusor_hand\"  v-for=\"ite in item.childern\"  v-bind:class={'select':ite.select}  v-on:click=\"videocheck(ite)\"><i class=\"iconfont \">&#xe600</i>&nbsp;{{$index+1}}&nbsp;{{ite.title}}&nbsp;&nbsp;({{ite.alltime}})</li>\n             <!-- <li class=\"overflow_pre size-12 cusor_hand\"><i class=\"iconfont \">&#xe600</i>8090后员工管理方法(50:25)</li>\n             <li class=\"overflow_pre size-12 cusor_hand\"><i class=\"iconfont \">&#xe600</i>8090后员工管理方法(50:25)</li> -->\n           </ul>\n         </li>\n       </ul>\n     </li>\n     <!-- 我的笔记 -->\n     <li class=\"myNote\" v-bind:class={'isshow':tabelcheck.leftcheck.note.value}>\n       <!-- 输入框区域 -->\n       <div class=\"input-area clear\">\n          <textarea  placeholder=\"请输入你的笔记内容...\" class=\"size-12\" v-model=\"noteInput.text\"></textarea>\n          <input type=\"checkbox\" value=\"\" v-model=\"noteInput.secret\"><i class=\"size-14\">私密</i>\n          <button type=\"button\" class=\"size-14 cusor_hand\" v-on:click=\"publishGet(noteInput.text,noteInput.secret)\">发布</button>\n       </div>\n       <!-- 笔记列表 -->\n       <div class=\"list-area\">\n          <ul class=\"table-list\">\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.notecheck.allnote.value} v-on:click=\"noteCheck(tabelcheck.notecheck.allnote)\">全部笔记</li>\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.notecheck.mynote.value} v-on:click=\"noteCheck(tabelcheck.notecheck.mynote)\">我的笔记</li>\n          </ul>\n          <ul class=\"note-list\">\n            <!-- 全部笔记 -->\n            <li class=\"allnote\" v-bind:class={'select':tabelcheck.notecheck.allnote.value} >\n              <ul>\n                <li class=\"clear\" v-for=\"item in noteData.allnote\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                </li>\n              </ul>\n            </li>\n            <!-- 我的笔记 -->\n            <li class=\"mynote\" v-bind:class={'select':tabelcheck.notecheck.mynote.value} >\n              <ul>\n                <li class=\"clear\" v-for=\"item in noteData.mynote\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                </li>\n              </ul>\n            </li>\n          </ul>\n       </div>\n     </li>\n     <!-- 我的问答 -->\n     <li class=\"myAnswer\" v-bind:class={'isshow':tabelcheck.leftcheck.answer.value}>\n       <!-- 问题输入框区域 -->\n       <div class=\"input-area clear\">\n          <textarea  placeholder=\"请输入你的提问内容...\" class=\"size-12\" v-model=\"answerInput\"></textarea>\n          <span>最多可以输入100字</span>\n          <button type=\"button\" class=\"size-14 cusor_hand\" v-on:click=\"publishanswer(answerInput)\">发布</button>\n       </div>\n       <!-- 问答列表 -->\n       <div class=\"list-area\">\n          <ul class=\"table-list\">\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.answercheck.allanswer.value} v-on:click=\"answerCheck(tabelcheck.answercheck.allanswer)\">全部问答</li>\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.answercheck.myanswer.value} v-on:click=\"answerCheck(tabelcheck.answercheck.myanswer)\">我的问答</li>\n          </ul>\n          <ul class=\"aq-list\">\n            <!-- 全部问答 -->\n            <li class=\"allaq\" v-bind:class={'select':tabelcheck.answercheck.allanswer.value}>\n              <ul>\n                <li class=\"clear\" v-for=\"item in answerData.allanswer\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                  <button type=\"button\" class=\"size-12 cusor_hand\">回复</button>\n                  <i class=\"iconfont size-12\">&#xe603</i>\n                </li>\n              </ul>\n            </li>\n            <!-- 我的问答 -->\n            <li class=\"myaq\" v-bind:class={'select':tabelcheck.answercheck.myanswer.value}>\n              <ul>\n                <li class=\"clear\" v-for=\"item in answerData.myanswer\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                  <button type=\"button\" class=\"size-12 cusor_hand\">回复</button>\n                  <i class=\"iconfont size-12\">&#xe603</i>\n                </li>\n              </ul>\n            </li>\n          </ul>\n       </div>\n     </li>\n   </ul>\n</div>\n";
 
 /***/ },
 /* 19 */
 /***/ function(module, exports) {
 
-	module.exports = "data:image/png;base64,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"
-
-/***/ },
-/* 20 */
-/***/ function(module, exports) {
-
-	module.exports = "\n <!-- 头部导航栏 -->\n<header>\n <!-- 列表功能项 -->\n   <ul>\n     <!-- 返回按钮 -->\n     <button type=\"button\"  class=\"header_left size-14 cusor_hand\"> < 返回</button>\n     <li class=\"header_left size-14\">正在播放：</li>\n     <li class=\"header_left\">总时长：</li>\n     <li class=\"header_left\">已学时长：</li>\n     <li class=\"header_right\">Hi，hjj黄姣姣</li>\n     <li class=\"header_right cusor_hand\"><i class=\"iconfont\">&#xe601</i>消息(3)</li>\n   </ul>\n</header>\n<article>\n  <!-- 左部视屏播放区域 -->\n  <section class=\"article_left\">\n     <video-Player></video-player>\n       <nav class=\"nav_bottom size-12\">\n         <i class=\"iconfont\">&#xe602</i>\n         <span class=\"download cusor_hand\">下载手机app</span>\n         <span class=\"studypeople\">•学习人数209人</span>\n         <span class=\"playtime\">203次播放</span>\n       </nav>\n  </section>\n  <!-- 右部列表区域 -->\n  <section class=\"article_right\" v-bind:class={'checked':rightShow}>\n     <select-list></select-list>\n  </section>\n</article>\n";
+	module.exports = "\n <!-- 头部导航栏 -->\n<header>\n <!-- 列表功能项 -->\n   <ul>\n     <!-- 返回按钮 -->\n     <button type=\"button\"  class=\"header_left size-14 cusor_hand\"> < 返回</button>\n     <li class=\"header_left size-14\">正在播放：{{headerTitle}}</li>\n     <li class=\"header_left alltime\">总时长：{{headerAllTime}}分钟</li>\n     <li class=\"header_left\">已学时长：{{headerHaveTime}}分钟</li>\n     <li class=\"header_right functions\">Hi，hjj黄姣姣 <button type=\"button\" class=\"cusor_hand\">【退出】</button><span></span></li>\n     <li class=\"header_right cusor_hand\"><i class=\"iconfont\">&#xe601</i>消息({{headerMessage}})</li>\n   </ul>\n</header>\n<article>\n  <!-- 左部视屏播放区域 -->\n  <section class=\"article_left\">\n     <video-Player></video-player>\n       <nav class=\"nav_bottom size-12\">\n         <i class=\"iconfont\">&#xe602</i>\n         <span class=\"download cusor_hand\">下载手机app</span>\n         <span class=\"studypeople\">•学习人数209人</span>\n         <span class=\"playtime\">203次播放</span>\n       </nav>\n  </section>\n  <!-- 右部列表区域 -->\n  <section class=\"article_right\" v-bind:class={'checked':rightShow}>\n     <select-list></select-list>\n  </section>\n</article>\n";
 
 /***/ }
 /******/ ]);

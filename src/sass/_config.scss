@@ -17,6 +17,33 @@ fieldset, img { border:0; }
 button, input, select, textarea { font-size:100%; font-family: '微软雅黑'}
 table { border-collapse:collapse; border-spacing:0; }
 
+::-webkit-scrollbar/*整体部分*/
+{
+width: 10px;
+height:10px;
+}
+
+::-webkit-scrollbar-track/*滑动轨道*/
+{
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+border-radius: 5px;
+background: #999999;
+}
+
+::-webkit-scrollbar-thumb/*滑块*/
+{
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+background: rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb:hover/*滑块效果*/
+{
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+background: rgba(0,0,0,0.4);
+}
+
 //阿里巴巴矢量图标初始化
 @font-face {
   font-family: 'iconfont';
