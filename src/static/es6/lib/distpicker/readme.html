@@ -1,0 +1,63 @@
+distpicker是一款可以实现中国省市区地址三级联动jQuery插件。它使用简单，简单设置即可完成中国省市区地址联动效果。
+ 安装
+可以通过npm或bower来安装该三级联动插件。
+npm install distpicker
+bower install distpicker                  
+ 使用方法
+ HTML结构
+
+基本的HTML结构是使用一个<div>容器来包裹一组<select>元素。
+<div><!-- container -->
+  <select></select><!-- 省 -->
+  <select></select><!-- 市 -->
+  <select></select><!-- 区 -->
+</div>                 
+你可以直接通过data-toggle="distpicker"实现来进行初始化。
+<div data-toggle="distpicker"><!-- container -->
+  <select></select><!-- 省 -->
+  <select></select><!-- 市 -->
+  <select></select><!-- 区 -->
+</div>                 
+也可以显示占位文本。
+<div data-toggle="distpicker">
+  <select data-province="---- 选择省 ----"></select>
+  <select data-city="---- 选择市 ----"></select>
+  <select data-district="---- 选择区 ----"></select>
+</div>               
+或者自定义省市区。
+<div data-toggle="distpicker">
+  <select data-province="浙江省"></select>
+  <select data-city="杭州市"></select>
+  <select data-district="西湖区"></select>
+</div>              
+ 初始化插件
+
+在页面DOM元素加载完毕之后，可以通过distpicker()方法来初始化该地址联动插件。
+$('#target').distpicker();                  
+自定义占位文本：
+$('#target').distpicker({
+  province: '---- 所在省 ----',
+  city: '---- 所在市 ----',
+  district: '---- 所在区 ----'
+});             
+自定义省市区。
+$('#target').distpicker({
+  province: '浙江省',
+  city: '杭州市',
+  district: '西湖区'
+});
+ 配置参数
+可以通过$().distpicker(options)来修改默认的配置参数，通过$.fn.distpicker.setDefaults(options)来修改全局默认参数。
+autoSelect：类型：Boolean，默认值：true。是否当省改变时自动选择市和区。
+placeholder：类型：Boolean，默认值：true。是否显示占位文本。
+province：类型：String，默认值：—— 省 ——。定义省份的初始值。如果在distpicker.data.js文件中存在该省份，将会被选择，否则显示占位文本。
+city：类型：String，默认值：—— 市 ——。定义市的初始值。如果在distpicker.data.js文件中存在该市，将会被选择，否则显示占位文本。
+district：类型：String，默认值：—— 区 ——。定义区的初始值。如果在distpicker.data.js文件中存在该区，将会被选择，否则显示占位文本。
+ 方法
+reset([deep])：重置select为初始状态。
+deep (optional)：类型：Boolean，默认值：false。重置select为初始状态。
+例如：
+$().distpicker('reset');
+$().distpicker('reset', true);
+destroy()：销毁插件实例。
+distpicker三级地址联动插件的github地址为：https://github.com/fengyuanchen/distpicker

@@ -1,0 +1,399 @@
+@import "../config";
+ .selectList{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   font-family: '微软雅黑';
+  //  左侧按钮
+   .nav_left{
+     position: absolute;
+     z-index: 999;
+     width: 53px;
+     height: 100%;
+     top: 0;
+     left: -54px;
+     display: flex;
+     flex-direction: column;
+     -webkit-display: flex;
+     -webkit-flex-direction:column;
+     position: absolute;
+     justify-content: center;
+     >li{
+       color: #ffffff;
+       background-color: rgb(41, 47, 51);
+       width: 54px;
+       height: 64px;
+       padding: 12px;
+       box-sizing: border-box;
+       line-height: 20px;
+       font-size: 14px;
+       margin-bottom:  8px;
+       transition: all 0.2s ease-in;
+       &:hover{
+         background-color: $main_color;
+       }
+     }
+     >.select{
+       background-color: $main_color;
+     }
+   }
+  //  右侧主体部分
+  .nav_right{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #161a1d;
+    overflow: hidden;
+    >li{
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: all 0.2s ease-in;
+    }
+    // 是否显示
+    >.isshow{
+      opacity: 1;
+      z-index: 999;
+    }
+    //课程目录
+    .courseList{
+      padding-top: 25px;
+      color: #b5b5b5;
+      // 一级标题
+      >h1{
+        font-size: 16px;
+        padding:0 20px;
+        border-top: 1px solid #333739;
+        height: 60px;
+        line-height: 60px;
+      }
+      // 二级标题
+      >ul{
+        padding: 0 20px;
+        height: calc(100% - 86px);
+        overflow-y: auto;
+        box-sizing: border-box;
+        >li{
+          >h2{
+            height: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            font-weight: 400;
+          }
+          //三级标题
+          >ul{
+            padding: 0 15px;
+            >li{
+              height: 15px;
+              line-height: 15px;
+              margin: 25px 0;
+              transition: all 0.2s ease-in;
+              &:hover{
+              color: #187fee;
+              }
+              &:hover .iconfont{
+              color: #187fee;
+              }
+              .iconfont{
+                font-size: 14px;
+              }
+            }
+            >.select{
+              color: #187fee;
+              .iconfont{
+                color: #187fee;
+              }
+            }
+          }
+        }
+      }
+    }
+    // 我的笔记
+    .myNote{
+      color: #b5b5b5;
+      padding-top: 25px;
+      // 输入区域
+      >.input-area{
+        padding: 40px 25px ;
+        box-sizing: border-box;
+        border-top: 1px solid #333739;
+        border-bottom: 1px solid #333739;
+        //文本输入框
+        >textarea{
+          font-family: '微软雅黑';
+          height: 70px;
+          width: 100%;
+          padding: 5px;
+          box-sizing: border-box;
+          display: block;
+          margin-bottom: 12px;
+          resize: none;
+        }
+        >input{
+          height: 15px;
+          width: 15px;
+          border-radius: 0;
+          margin-right: 5px;
+          float: left;
+        }
+        >i{
+          display: block;
+          height: 15px;
+          line-height: 15px;
+          font-style:normal;
+          float: left;
+        }
+        // 确认按钮
+        >button{
+          font-family: '微软雅黑';
+          height: 20px;
+          width: 55px;
+          text-align: center;
+          line-height: 20px;
+          background-color: $main_color;
+          color: #ffffff;
+          border-radius: 0;
+          border: 0;
+          float: right;
+        }
+      }
+      // 详情列表区域
+      >.list-area{
+        height: calc(100% - 184px);
+
+        // 切换按键
+        >.table-list{
+          height: 50px;
+          margin: 0 25px;
+          border-bottom: 1px solid #65737e;
+          font-size: 0;
+          >li{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            width: 80px;
+            display: inline-block;
+            transition: color 0.2s ease-in;
+            &:hover{
+              color: #ffffff;
+            }
+          }
+          // 被选中后的状态
+          >.select{
+            border-bottom: 1px solid $main_color;
+            position: relative;
+            color: #ffffff;
+            &:after{
+              width: 0;
+              height: 0;
+              display: block;
+              content: '';
+              border: 4px solid #161a1d;
+              border-bottom-color: $main_color;
+              position: absolute;
+              bottom: 0;
+              left: 38px;
+            }
+          }
+        }
+        // 提问列表
+        >.note-list{
+          height: calc(100% - 51px);
+          position: relative;
+            >li{
+              height: 100%;
+              box-sizing: border-box;
+              overflow-y: auto;
+              position: absolute;
+              top: 0;
+              left: 0;
+              opacity: 0;
+              transition: all 0.3s ease-in;
+              >ul{
+                >li{
+                  padding: 22px 25px 16px 25px;
+                  border-bottom: 1px dashed #909090;
+                  >img{
+                    height: 35px;
+                    width: 35px;
+                    float: left;
+                    border-radius: 50%;
+                    display: block;
+                    margin-right: 10px;
+                  }
+                  >h5{
+                    float: left;
+                    height: 35px;
+                    line-height: 35px;
+                    width: calc(100% - 45px);
+                    color: #8498a8;
+                    font-weight: 400;
+                  }
+                  >p{
+                    line-height: 25px;
+                    margin: 5px 0;
+                    float: left;
+                  }
+                  >span{
+                    float: left;
+                  }
+                }
+              }
+            }
+            >.select{
+              opacity: 1;
+              z-index: 999;
+            }
+        }
+      }
+    }
+    //我的问答
+    .myAnswer{
+      color: #b5b5b5;
+      padding-top: 25px;
+      // 输入区域
+      >.input-area{
+        padding: 40px 25px ;
+        box-sizing: border-box;
+        border-top: 1px solid #333739;
+        border-bottom: 1px solid #333739;
+        //文本输入框
+        >textarea{
+          font-family: '微软雅黑';
+          height: 70px;
+          width: 100%;
+          padding: 5px;
+          box-sizing: border-box;
+          display: block;
+          margin-bottom: 12px;
+          resize: none;
+        }
+        >span{
+          font-size: 12px;
+          float: left;
+        }
+        // 确认按钮
+        >button{
+          font-family: '微软雅黑';
+          height: 20px;
+          width: 55px;
+          text-align: center;
+          line-height: 20px;
+          background-color: $main_color;
+          color: #ffffff;
+          border-radius: 0;
+          border: 0;
+          float: right;
+        }
+      }
+      // 详情列表区域
+      >.list-area{
+        height: calc(100% - 184px);
+
+        // 切换按键
+        >.table-list{
+          height: 50px;
+          margin: 0 25px;
+          border-bottom: 1px solid #65737e;
+          font-size: 0;
+          >li{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            width: 80px;
+            display: inline-block;
+            transition: color 0.2s ease-in;
+            &:hover{
+              color: #ffffff;
+            }
+          }
+          // 被选中后的状态
+          >.select{
+            border-bottom: 1px solid $main_color;
+            position: relative;
+            color: #ffffff;
+            &:after{
+              width: 0;
+              height: 0;
+              display: block;
+              content: '';
+              border: 4px solid #161a1d;
+              border-bottom-color: $main_color;
+              position: absolute;
+              bottom: 0;
+              left: 38px;
+            }
+          }
+        }
+        // 提问列表
+        >.aq-list{
+          height: calc(100% - 51px);
+          position: relative;
+            >li{
+              height: 100%;
+              box-sizing: border-box;
+              overflow-y: auto;
+              position: absolute;
+              top: 0;
+              left: 0;
+              opacity: 0;
+              transition: all 0.3s ease-in;
+              >ul{
+                >li{
+                  padding: 22px 25px 16px 25px;
+                  border-bottom: 1px dashed #909090;
+                  >img{
+                    height: 35px;
+                    width: 35px;
+                    float: left;
+                    border-radius: 50%;
+                    display: block;
+                    margin-right: 10px;
+                  }
+                  >h5{
+                    float: left;
+                    height: 35px;
+                    line-height: 35px;
+                    width: calc(100% - 45px);
+                    color: #8498a8;
+                    font-weight: 400;
+                  }
+                  >p{
+                    line-height: 25px;
+                    margin: 5px 0;
+                    float: left;
+                  }
+                  >span{
+                    float: left;
+                  }
+                  >button{
+                    float: right;
+                    background-color: transparent;
+                    border: none;
+                    color: #b5b5b5;
+                    transition: all 0.2s ease-in;
+                    &:hover{
+                      color: #ffffff;
+                    }
+                  }
+                  >i{
+                    float: right;
+                    margin-right: 5px;
+                  }
+                }
+
+              }
+            }
+            >.select{
+              opacity: 1;
+              z-index: 999;
+            }
+        }
+      }
+    }
+  }
+ }

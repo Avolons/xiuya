@@ -1,0 +1,61 @@
+使用方法
+使用该下拉框美化插件需要在页面中引入nice-select.css和jquery以及jquery.nice-select.js文件。
+<link rel="stylesheet" href="path/to/nice-select.css">
+<script src="path/to/jquery.js"></script> 
+<script src="path/to/jquery.nice-select.js"></script>
+ 初始化插件
+
+在页面DOM元素加载完毕之后，可以通过niceSelect()方法来初始化该插件。
+$(document).ready(function() {
+    $('select').niceSelect();      
+  });   
+ 显示文本
+
+你可以为每一个选项定义一个预定义的文本，在该选项被选择的时候，会显示这个文本。
+<select>
+  <option data-display="Select">Nothing</option>
+  <option value="1">Some option</option>
+  <option value="2">Another option</option>
+  <option value="3" disabled>A disabled option</option>
+  <option value="4">Potato</option>
+</select>                  
+ 选择框的宽度
+
+插件中预定义了一些可用的class类，用于定制不同样式的select选择下拉框。使用.wide class类会生成于父容器相等宽度的下拉框。
+<select class="wide">
+  <option data-display="Select">Nothing</option>
+  <option value="1">Some option</option>
+  <option value="2">Another option</option>
+  <option value="3" disabled>A disabled option</option>
+  <option value="4">Potato</option>
+</select>                  
+ 右对齐
+
+<select class="right">
+  <option data-display="Select">Nothing</option>
+  <option value="1">Some option</option>
+  <option value="2">Another option</option>
+  <option value="3" disabled>A disabled option</option>
+  <option value="4">Potato</option>
+</select>                  
+ 小号文字
+
+<select class="small">
+  <option data-display="Select">Nothing</option>
+  <option value="1">Some option</option>
+  <option value="2">Another option</option>
+  <option value="3" disabled>A disabled option</option>
+  <option value="4">Potato</option>
+</select>                  
+ 方法
+ update
+
+该方法用于更新select下拉选择框。
+$('select').niceSelect('update');                 
+                
+ destory
+
+该方法用于销毁select下拉选择框。
+$('select').niceSelect('destory');                 
+                
+jquery-nice-select选择下拉框美化插件的github地址为：https://github.com/hernansartorio/jquery-nice-select

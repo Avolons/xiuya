@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="screen-orientation" content="portrait">
+	<title>xiuya</title>
+  <link rel="stylesheet" href="../../static/css/videoplayer/videoplayer.css" media="screen" title="no title">
+</head>
+<body>
+  <header>
+   <!-- 列表功能项 -->
+     <ul>
+       <!-- 返回按钮 -->
+       <button type="button"  class="header_left size-14 cusor_hand"> < 返回</button>
+       <li class="header_left size-14">正在播放：</li>
+       <li class="header_left">总时长：</li>
+       <li class="header_left">已学时长：</li>
+       <li class="header_right">Hi，hjj黄姣姣</li>
+       <li class="header_right cusor_hand"><i class="iconfont">&#xe601</i>消息(3)</li>
+     </ul>
+  </header>
+  <article>
+    <!-- 左部视屏播放区域 -->
+    <section class="article_left">
+       <left></left>
+         <nav class="nav_bottom size-12">
+           <i class="iconfont">&#xe602</i>
+           <span class="download cusor_hand">下载手机app</span>
+           <span class="studypeople">•学习人数209人</span>
+           <span class="playtime">203次播放</span>
+         </nav>
+    </section>
+    <!-- 右部列表区域 -->
+    <section class="article_right">
+       <right></right>
+    </section>
+  </article>
+  <script src="../../static/es6/lib/vue.js"></script>
+  <script src="../../static/es6/lib/video.js5.11/video.min.js" charset="utf-8"></script>
+  <script src="../../static/es6/lib/video.js5.11/plugins/hls/videojs-contrib-hls.min.js" charset="utf-8"></script>
+  <script src="../../static/es6/lib/video.js5.11/plugins/resolution_switch/videojs-resolution-switcher.js" charset="utf-8"></script>
+  <script src="../../static/es6/videoplayer/videoplayer.js"></script>
+</body>
+</html>
