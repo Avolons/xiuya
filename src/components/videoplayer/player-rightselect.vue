@@ -704,9 +704,9 @@ methods:{
         };
         //当当前状态处于私密性质，下面可以使用ajax进行数据获取
         if (type) {
-          this.noteData.mynote.push(newdata);
+          this.noteData.mynote.unshift(newdata);
         }else{
-          this.noteData.allnote.push(newdata);
+          this.noteData.allnote.unshift(newdata);
         };
         //清空输入框内容
         this.noteInput.text='';
@@ -725,8 +725,8 @@ methods:{
           text:this.answerInput,
           time:this.getDate()
         };
-        this.answerData.allanswer.push(newdata);
-        this.answerData.myanswer.push(newdata);
+        this.answerData.allanswer.unshift(newdata);
+        this.answerData.myanswer.unshift(newdata);
         this.answerInput='';
       }
     },

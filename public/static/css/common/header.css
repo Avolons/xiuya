@@ -1,0 +1,2 @@
+.header-top{height:38px;width:1200px;margin:0 auto;color:#212121}.header-top>ul{height:100%}.header-top>ul>li{-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;padding:0 25px;float:right;height:100%;line-height:38px;text-align:center}.header-top>ul>li:after{content:'';display:block;height:15px;width:1px;float:right;background-color:#ccc;margin-top:11.5px;margin-right:-25px}.header-top>ul>.focusus>img{margin-left:7px;cursor:pointer}.header-top>ul>.focusus:after{display:none}
+/*# sourceMappingURL=../maps/common/header.css.map */

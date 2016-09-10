@@ -1,0 +1,106 @@
+body{
+  background-image: url("../../assets/images/common/content-bc.png");
+}
+.person-content{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  >.person-left{
+    width: 240px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #e1dcdc;
+    //头像部分
+    >figure{
+      padding-top: 35px;
+      margin: 0 ;
+      margin-bottom: 10px;
+      >img{
+        display: block;
+        height: 115px;
+        width: 115px;
+        box-sizing: border-box;
+        border: 1px solid #e6e5e5;
+        margin: 0 auto;
+      }
+      >h5{
+        width: 100%;
+        color: #740e0f;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+      }
+      >span{
+        display: block;
+        color: #740e0f;
+        text-align: center;
+        color: #292929;
+      }
+      button{
+        width: 160px;
+        height: 20px;
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid #e0e0e0;
+        background-color: #efefef;
+        color: #292929;
+        line-height: 20px;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+    }
+    //列表部分
+    ul{
+      >h2{
+        color: #636363;
+        padding-left: 60px;
+        height: 50px;
+        line-height: 50px;
+        font-weight: 400;
+        border-bottom: 1px solid #efeeee;
+        box-sizing: border-box;
+        background-color: #efefef;
+        >i{
+          font-weight: 400;
+          margin-right: 3px;
+        }
+      }
+      >li{
+        color: #525252;
+        padding-left: 60px;
+        cursor: pointer;
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px;
+        border-bottom: 1px solid #efeeee;
+        box-sizing: border-box;
+        transition: all 0.2s ease-in;
+        &:hover{
+          background-image: url("../../assets/images/common/header-bc.png");
+          color: #ffffff;
+        }
+      }
+      >.select{
+        // background-color: #7a0907;
+        color: #ffffff;
+        background-image: url("../../assets/images/common/header-bc.png");
+      }
+      >.mystudy{
+        >i{
+          font-size: 18px;
+        }
+      }
+      >.mypurch{
+        >i{
+          font-size: 17px;
+        }
+      }
+      >.personaldata{
+        >i{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+}
