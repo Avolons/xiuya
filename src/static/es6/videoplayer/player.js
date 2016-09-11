@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(27);
+	module.exports = __webpack_require__(41);
 
 
 /***/ },
@@ -110,8 +110,7 @@
 
 /***/ },
 /* 7 */,
-/* 8 */,
-/* 9 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -333,6 +332,7 @@
 
 
 /***/ },
+/* 9 */,
 /* 10 */,
 /* 11 */,
 /* 12 */,
@@ -350,12 +350,26 @@
 /* 24 */,
 /* 25 */,
 /* 26 */,
-/* 27 */
+/* 27 */,
+/* 28 */,
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */,
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _playerMain = __webpack_require__(28);
+	var _playerMain = __webpack_require__(42);
 
 	var _playerMain2 = _interopRequireDefault(_playerMain);
 
@@ -368,17 +382,17 @@
 	});
 
 /***/ },
-/* 28 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(29)
-	__vue_script__ = __webpack_require__(32)
+	__webpack_require__(43)
+	__vue_script__ = __webpack_require__(46)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src\\components\\videoplayer\\player-main.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(43)
+	__vue_template__ = __webpack_require__(57)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -397,16 +411,16 @@
 	})()}
 
 /***/ },
-/* 29 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(30);
+	var content = __webpack_require__(44);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(9)(content, {});
+	var update = __webpack_require__(8)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -423,7 +437,7 @@
 	}
 
 /***/ },
-/* 30 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(6)();
@@ -431,19 +445,19 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n::-webkit-scrollbar {\n  width: 10px;\n  height: 10px; }\n\n::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  border-radius: 5px;\n  background: #999999; }\n\n::-webkit-scrollbar-thumb {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.2); }\n\n::-webkit-scrollbar-thumb:hover {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.4); }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1473494056_6048825.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1473494056_6048825.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1473494056_6048825.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1473494056_6048825.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1473494056_6048825.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\nhtml, body {\n  height: 100%;\n  min-width: 750px; }\n\nheader {\n  height: 45px;\n  padding: 0 30px;\n  background-image: url(" + __webpack_require__(31) + "); }\n  header ul {\n    height: 45px;\n    line-height: 45px;\n    font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n    font-size: 12px; }\n    header ul > button {\n      font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n      height: 33px;\n      line-height: 33px;\n      margin-top: 6px;\n      padding: 0 15px;\n      box-sizing: border-box;\n      border: 1px solid #e7e6e6;\n      background-color: white;\n      color: #980100;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n      header ul > button:hover {\n        background-color: #e43a3d;\n        color: #ffffff; }\n    header ul > li {\n      color: #1f1f1f; }\n      header ul > li .iconfont {\n        color: #e43a3d;\n        font-size: 12px;\n        margin-right: 3px; }\n    header ul > .alltime {\n      max-width: 300px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: pre; }\n    header ul > .functions {\n      position: relative;\n      padding-right: 13px; }\n      header ul > .functions:hover span {\n        -webkit-transform: rotate(180deg);\n                transform: rotate(180deg); }\n      header ul > .functions > span {\n        height: 0;\n        width: 0;\n        border: 5px solid transparent;\n        border-bottom-color: #333333;\n        display: block;\n        position: absolute;\n        right: 0;\n        top: 15px;\n        -webkit-transition: all 0.3s ease-in;\n        transition: all 0.3s ease-in;\n        -webkit-transform-origin: 50% 7.5px;\n                transform-origin: 50% 7.5px; }\n      header ul > .functions > button {\n        background-color: transparent;\n        border: none; }\n        header ul > .functions > button:hover {\n          color: #e43a3d; }\n  header .header_left {\n    float: left;\n    margin-right: 40px; }\n  header .header_right {\n    float: right;\n    margin-left: 40px; }\n\narticle {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-flex-direction: row;\n  height: calc(100% - 45px);\n  width: 100%; }\n  article .article_left {\n    width: 100%;\n    -ms-flex-negative: 1;\n        flex-shrink: 1;\n    -webkit-flex-shrink: 1;\n    height: 100%;\n    overflow: hidden; }\n    article .article_left > .nav_bottom {\n      background-color: #202020;\n      padding: 8px 25px;\n      box-sizing: border-box;\n      height: 35px;\n      color: #cacaca; }\n      article .article_left > .nav_bottom .download {\n        -webkit-transition: all 0.2s ease-in;\n        transition: all 0.2s ease-in; }\n        article .article_left > .nav_bottom .download:hover {\n          color: #ffffff; }\n      article .article_left > .nav_bottom .playtime {\n        float: right;\n        padding: 0 15px; }\n        article .article_left > .nav_bottom .playtime:after {\n          content: '';\n          display: block;\n          height: 16px;\n          width: 1px;\n          background-color: #363636;\n          float: right;\n          margin-right: -15px; }\n      article .article_left > .nav_bottom .studypeople {\n        float: right;\n        padding: 0 15px; }\n  article .article_right {\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    -webkit-flex-shrink: 0;\n    width: 0px;\n    height: 100%;\n    -webkit-transition: all 0.3s ease-in;\n    transition: all 0.3s ease-in; }\n  article > .checked {\n    width: 340px; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\nbody, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,\nfieldset, legend, button, input, textarea, th, td {\n  margin: 0;\n  padding: 0;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\nbody, button, input, select, textarea {\n  font: 12px/1.5tahoma, arial, \\5b8b\\4f53; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-size: 100%; }\n\naddress, cite, dfn, em, var {\n  font-style: normal; }\n\ncode, kbd, pre, samp {\n  font-family: couriernew, courier, monospace; }\n\nsmall {\n  font-size: 12px; }\n\nul, ol {\n  list-style: none; }\n\na {\n  text-decoration: none; }\n\na:hover {\n  text-decoration: underline; }\n\nsup {\n  vertical-align: text-top; }\n\nsub {\n  vertical-align: text-bottom; }\n\nlegend {\n  color: #000; }\n\nfieldset, img {\n  border: 0; }\n\nbutton, input, select, textarea {\n  font-size: 100%;\n  font-family: '\\5FAE\\8F6F\\96C5\\9ED1'; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n::-webkit-scrollbar {\n  width: 10px;\n  height: 10px; }\n\n::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  border-radius: 5px;\n  background: #999999; }\n\n::-webkit-scrollbar-thumb {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.2); }\n\n::-webkit-scrollbar-thumb:hover {\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);\n  background: rgba(0, 0, 0, 0.4); }\n\n@font-face {\n  font-family: 'iconfont';\n  src: url(\"//at.alicdn.com/t/font_1473494056_6048825.eot\");\n  /* IE9*/\n  src: url(\"//at.alicdn.com/t/font_1473494056_6048825.eot?#iefix\") format(\"embedded-opentype\"), url(\"//at.alicdn.com/t/font_1473494056_6048825.woff\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1473494056_6048825.ttf\") format(\"truetype\"), url(\"//at.alicdn.com/t/font_1473494056_6048825.svg#iconfont\") format(\"svg\");\n  /* iOS 4.1- */ }\n\n.iconfont {\n  font-family: \"iconfont\";\n  font-size: 14px;\n  font-style: normal; }\n\n.size-12 {\n  font-size: 12px; }\n\n.size-14 {\n  font-size: 14px; }\n\n.size-16 {\n  font-size: 16px; }\n\n.size-18 {\n  font-size: 18px; }\n\n.cusor_hand {\n  cursor: pointer; }\n\n.overflow_pre {\n  overflow: hidden;\n  white-space: pre;\n  text-overflow: ellipsis; }\n\n.clear:after {\n  display: block;\n  content: '';\n  clear: both; }\n\nhtml, body {\n  height: 100%;\n  min-width: 750px; }\n\nheader {\n  height: 45px;\n  padding: 0 30px;\n  background-image: url(" + __webpack_require__(45) + "); }\n  header ul {\n    height: 45px;\n    line-height: 45px;\n    font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n    font-size: 12px; }\n    header ul > button {\n      font-family: '\\5FAE\\8F6F\\96C5\\9ED1';\n      height: 33px;\n      line-height: 33px;\n      margin-top: 6px;\n      padding: 0 15px;\n      box-sizing: border-box;\n      border: 1px solid #e7e6e6;\n      background-color: white;\n      color: #980100;\n      -webkit-transition: all 0.2s ease-in;\n      transition: all 0.2s ease-in; }\n      header ul > button:hover {\n        background-color: #e43a3d;\n        color: #ffffff; }\n    header ul > li {\n      color: #1f1f1f; }\n      header ul > li .iconfont {\n        color: #e43a3d;\n        font-size: 12px;\n        margin-right: 3px; }\n    header ul > .alltime {\n      max-width: 300px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: pre; }\n    header ul > .functions {\n      position: relative;\n      padding-right: 13px; }\n      header ul > .functions:hover span {\n        -webkit-transform: rotate(180deg);\n                transform: rotate(180deg); }\n      header ul > .functions > span {\n        height: 0;\n        width: 0;\n        border: 5px solid transparent;\n        border-bottom-color: #333333;\n        display: block;\n        position: absolute;\n        right: 0;\n        top: 15px;\n        -webkit-transition: all 0.3s ease-in;\n        transition: all 0.3s ease-in;\n        -webkit-transform-origin: 50% 7.5px;\n                transform-origin: 50% 7.5px; }\n      header ul > .functions > button {\n        background-color: transparent;\n        border: none; }\n        header ul > .functions > button:hover {\n          color: #e43a3d; }\n  header .header_left {\n    float: left;\n    margin-right: 40px; }\n  header .header_right {\n    float: right;\n    margin-left: 40px; }\n\narticle {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-flex-direction: row;\n  height: calc(100% - 45px);\n  width: 100%; }\n  article .article_left {\n    width: 100%;\n    -ms-flex-negative: 1;\n        flex-shrink: 1;\n    -webkit-flex-shrink: 1;\n    height: 100%;\n    overflow: hidden; }\n    article .article_left > .nav_bottom {\n      background-color: #202020;\n      padding: 8px 25px;\n      box-sizing: border-box;\n      height: 35px;\n      color: #cacaca; }\n      article .article_left > .nav_bottom .download {\n        -webkit-transition: all 0.2s ease-in;\n        transition: all 0.2s ease-in; }\n        article .article_left > .nav_bottom .download:hover {\n          color: #ffffff; }\n      article .article_left > .nav_bottom .playtime {\n        float: right;\n        padding: 0 15px; }\n        article .article_left > .nav_bottom .playtime:after {\n          content: '';\n          display: block;\n          height: 16px;\n          width: 1px;\n          background-color: #363636;\n          float: right;\n          margin-right: -15px; }\n      article .article_left > .nav_bottom .studypeople {\n        float: right;\n        padding: 0 15px; }\n  article .article_right {\n    -ms-flex-negative: 0;\n        flex-shrink: 0;\n    -webkit-flex-shrink: 0;\n    width: 0px;\n    height: 100%;\n    -webkit-transition: all 0.3s ease-in;\n    transition: all 0.3s ease-in; }\n  article > .checked {\n    width: 340px; }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 31 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "images/video-header-bc.png?ae8035f56f";
 
 /***/ },
-/* 32 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -452,11 +466,11 @@
 	  value: true
 	});
 
-	var _playerLeftvideo = __webpack_require__(33);
+	var _playerLeftvideo = __webpack_require__(47);
 
 	var _playerLeftvideo2 = _interopRequireDefault(_playerLeftvideo);
 
-	var _playerRightselect = __webpack_require__(38);
+	var _playerRightselect = __webpack_require__(52);
 
 	var _playerRightselect2 = _interopRequireDefault(_playerRightselect);
 
@@ -531,17 +545,17 @@
 	// </style>
 
 /***/ },
-/* 33 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(34)
-	__vue_script__ = __webpack_require__(36)
+	__webpack_require__(48)
+	__vue_script__ = __webpack_require__(50)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src\\components\\videoPlayer\\player-leftvideo.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(37)
+	__vue_template__ = __webpack_require__(51)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -560,16 +574,16 @@
 	})()}
 
 /***/ },
-/* 34 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(35);
+	var content = __webpack_require__(49);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(9)(content, {});
+	var update = __webpack_require__(8)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -586,7 +600,7 @@
 	}
 
 /***/ },
-/* 35 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(6)();
@@ -600,7 +614,7 @@
 
 
 /***/ },
-/* 36 */
+/* 50 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -704,23 +718,23 @@
 	// </style>
 
 /***/ },
-/* 37 */
+/* 51 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"videoPlayer\">\n  <video src=\"\" controls=\"\" preload=\"auto\" poster=\"../../assets/images/videoplayer/video-content-poster.jpg\" id=\"video\" class=\"video-js vjs-default-skin vjs-big-play-centered\">\n\n  </video>\n</div>\n";
 
 /***/ },
-/* 38 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(39)
-	__vue_script__ = __webpack_require__(41)
+	__webpack_require__(53)
+	__vue_script__ = __webpack_require__(55)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src\\components\\videoPlayer\\player-rightselect.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(42)
+	__vue_template__ = __webpack_require__(56)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -739,16 +753,16 @@
 	})()}
 
 /***/ },
-/* 39 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(40);
+	var content = __webpack_require__(54);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(9)(content, {});
+	var update = __webpack_require__(8)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -765,7 +779,7 @@
 	}
 
 /***/ },
-/* 40 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(6)();
@@ -779,7 +793,7 @@
 
 
 /***/ },
-/* 41 */
+/* 55 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1504,13 +1518,13 @@
 	// </style>
 
 /***/ },
-/* 42 */
+/* 56 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"selectList\">\n  <!-- 左侧选择按钮 -->\n  <ul class=\"nav_left size-14\">\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.course.value} v-on:click='rightCheck(tabelcheck.leftcheck.course)'>课程目录</li>\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.note.value} v-on:click='rightCheck(tabelcheck.leftcheck.note)'>我的笔记</li>\n      <li class=\"cusor_hand\" v-bind:class={'select':tabelcheck.leftcheck.answer.value} v-on:click='rightCheck(tabelcheck.leftcheck.answer)' >我的问答</li>\n  </ul>\n  <!-- 右侧主体部分 -->\n   <ul class=\"nav_right\">\n     <!-- 课程目录 -->\n     <li class=\"courseList\" v-bind:class={'isshow':tabelcheck.leftcheck.course.value}>\n       <!-- 课程标题 -->\n       <h1 class=\"overflow_pre size-16\">{{courseList.title}}</h1>\n       <ul>\n         <li v-for=\"item in courseList.childernone\">\n           <h2 class=\"overflow_pre size-14\">第一课时&nbsp;&nbsp;{{item.title}}</h2>\n           <ul>\n             <li class=\"overflow_pre size-12 cusor_hand\"  v-for=\"ite in item.childern\"  v-bind:class={'select':ite.select}  v-on:click=\"videocheck(ite)\"><i class=\"iconfont \">&#xe600</i>&nbsp;{{$index+1}}&nbsp;{{ite.title}}&nbsp;&nbsp;({{ite.alltime}})</li>\n             <!-- <li class=\"overflow_pre size-12 cusor_hand\"><i class=\"iconfont \">&#xe600</i>8090后员工管理方法(50:25)</li>\n             <li class=\"overflow_pre size-12 cusor_hand\"><i class=\"iconfont \">&#xe600</i>8090后员工管理方法(50:25)</li> -->\n           </ul>\n         </li>\n       </ul>\n     </li>\n     <!-- 我的笔记 -->\n     <li class=\"myNote\" v-bind:class={'isshow':tabelcheck.leftcheck.note.value}>\n       <!-- 输入框区域 -->\n       <div class=\"input-area clear\">\n          <textarea  placeholder=\"请输入你的笔记内容...\" class=\"size-12\" v-model=\"noteInput.text\"></textarea>\n          <input type=\"checkbox\" value=\"\" v-model=\"noteInput.secret\"><i class=\"size-14\">私密</i>\n          <button type=\"button\" class=\"size-14 cusor_hand\" v-on:click=\"publishGet(noteInput.text,noteInput.secret)\">发布</button>\n       </div>\n       <!-- 笔记列表 -->\n       <div class=\"list-area\">\n          <ul class=\"table-list\">\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.notecheck.allnote.value} v-on:click=\"noteCheck(tabelcheck.notecheck.allnote)\">全部笔记</li>\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.notecheck.mynote.value} v-on:click=\"noteCheck(tabelcheck.notecheck.mynote)\">我的笔记</li>\n          </ul>\n          <ul class=\"note-list\">\n            <!-- 全部笔记 -->\n            <li class=\"allnote\" v-bind:class={'select':tabelcheck.notecheck.allnote.value} >\n              <ul>\n                <li class=\"clear\" v-for=\"item in noteData.allnote\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                </li>\n              </ul>\n            </li>\n            <!-- 我的笔记 -->\n            <li class=\"mynote\" v-bind:class={'select':tabelcheck.notecheck.mynote.value} >\n              <ul>\n                <li class=\"clear\" v-for=\"item in noteData.mynote\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                </li>\n              </ul>\n            </li>\n          </ul>\n       </div>\n     </li>\n     <!-- 我的问答 -->\n     <li class=\"myAnswer\" v-bind:class={'isshow':tabelcheck.leftcheck.answer.value}>\n       <!-- 问题输入框区域 -->\n       <div class=\"input-area clear\">\n          <textarea  placeholder=\"请输入你的提问内容...\" class=\"size-12\" v-model=\"answerInput\"></textarea>\n          <span>最多可以输入100字</span>\n          <button type=\"button\" class=\"size-14 cusor_hand\" v-on:click=\"publishanswer(answerInput)\">发布</button>\n       </div>\n       <!-- 问答列表 -->\n       <div class=\"list-area\">\n          <ul class=\"table-list\">\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.answercheck.allanswer.value} v-on:click=\"answerCheck(tabelcheck.answercheck.allanswer)\">全部问答</li>\n            <li class=\"cusor_hand size-14\" v-bind:class={'select':tabelcheck.answercheck.myanswer.value} v-on:click=\"answerCheck(tabelcheck.answercheck.myanswer)\">我的问答</li>\n          </ul>\n          <ul class=\"aq-list\">\n            <!-- 全部问答 -->\n            <li class=\"allaq\" v-bind:class={'select':tabelcheck.answercheck.allanswer.value}>\n              <ul>\n                <li class=\"clear\" v-for=\"item in answerData.allanswer\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                  <button type=\"button\" class=\"size-12 cusor_hand\">回复</button>\n                  <i class=\"iconfont size-12\">&#xe603</i>\n                </li>\n              </ul>\n            </li>\n            <!-- 我的问答 -->\n            <li class=\"myaq\" v-bind:class={'select':tabelcheck.answercheck.myanswer.value}>\n              <ul>\n                <li class=\"clear\" v-for=\"item in answerData.myanswer\">\n                  <img src={{item.img}} alt=\"img\" />\n                  <h5 class=\"size-14 overflow_pre\">{{item.title}}</h5>\n                  <p class=\"size-12\">\n                    {{item.text}}\n                  </p>\n                  <span class=\"time size-12\">{{item.time}} </span>\n                  <button type=\"button\" class=\"size-12 cusor_hand\">回复</button>\n                  <i class=\"iconfont size-12\">&#xe603</i>\n                </li>\n              </ul>\n            </li>\n          </ul>\n       </div>\n     </li>\n   </ul>\n</div>\n";
 
 /***/ },
-/* 43 */
+/* 57 */
 /***/ function(module, exports) {
 
 	module.exports = "\n <!-- 头部导航栏 -->\n<header>\n <!-- 列表功能项 -->\n   <ul>\n     <!-- 返回按钮 -->\n     <button type=\"button\"  class=\"header_left size-14 cusor_hand\"> < 返回</button>\n     <li class=\"header_left size-14\">正在播放：{{headerTitle}}</li>\n     <li class=\"header_left alltime\">总时长：{{headerAllTime}}分钟</li>\n     <li class=\"header_left\">已学时长：{{headerHaveTime}}分钟</li>\n     <li class=\"header_right functions\">Hi，hjj黄姣姣 <button type=\"button\" class=\"cusor_hand\">【退出】</button><span></span></li>\n     <li class=\"header_right cusor_hand\"><i class=\"iconfont\">&#xe601</i>消息({{headerMessage}})</li>\n   </ul>\n</header>\n<article>\n  <!-- 左部视屏播放区域 -->\n  <section class=\"article_left\">\n     <video-Player></video-player>\n       <nav class=\"nav_bottom size-12\">\n         <i class=\"iconfont\">&#xe602</i>\n         <span class=\"download cusor_hand\">下载手机app</span>\n         <span class=\"studypeople\">•学习人数209人</span>\n         <span class=\"playtime\">203次播放</span>\n       </nav>\n  </section>\n  <!-- 右部列表区域 -->\n  <section class=\"article_right\" v-bind:class={'checked':rightShow}>\n     <select-list></select-list>\n  </section>\n</article>\n";

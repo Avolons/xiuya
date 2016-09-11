@@ -29,7 +29,7 @@
      </div>
     </div>
 </template>
-<style scoped rel="stylesheet/scss" lang="sass">
+<style rel="stylesheet/scss" lang="sass">
    @import "../../sass/config";
    @import "../../sass/common/header";
 </style>

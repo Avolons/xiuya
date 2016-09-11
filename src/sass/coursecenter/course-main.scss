@@ -1,0 +1,43 @@
+body{
+  background-image: url("../../assets/images/common/content-bc.png");
+}
+.course-content{
+  width: 1200px;
+  margin: 0 auto;
+  >section{
+    >ul{
+      display: flex;
+      flex-direction: row;
+      // align-content: space-between;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      >li{
+        width: 250px;
+        >figure{
+          margin:0;
+          >img{
+            width: 250px;
+            height: 150px;
+            box-sizing: border-box;
+            border: 1px solid #c3c3c3;
+          }
+          >h5{
+            color: #414141;
+            font-size: 14px;
+            height: 40px;
+            line-height: 40px;
+          }
+          >ul{
+            height: 20px;
+            >li{
+              float: left;
+              width: 33%;
+              color: #6f6f6f;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

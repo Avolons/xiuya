@@ -5,11 +5,13 @@ body{
   width: 1200px;
   margin: 0 auto;
   padding-top: 40px;
+  padding-bottom: 50px;
   >.person-left{
     width: 240px;
     background-color: #ffffff;
     box-sizing: border-box;
     border: 1px solid #e1dcdc;
+    float: left;
     //头像部分
     >figure{
       padding-top: 35px;
@@ -37,6 +39,7 @@ body{
         color: #292929;
       }
       button{
+        cursor: pointer;
         width: 160px;
         height: 20px;
         display: block;
@@ -51,6 +54,7 @@ body{
     }
     //列表部分
     ul{
+      margin-top: 20px;
       >h2{
         color: #636363;
         padding-left: 60px;
@@ -102,5 +106,9 @@ body{
       }
     }
   }
-
+  // 右侧主体部分
+  >.person-right{
+    width: 900px;
+    float: right;
+  }
 }

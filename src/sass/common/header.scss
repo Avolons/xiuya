@@ -24,7 +24,7 @@
         margin-right: -25px;
       }
       .iconfont{
-        color: $main_color;
+        color: #e43a3d;
         font-size: 12px;
         margin-right: 3px;
       }
@@ -50,7 +50,7 @@
     // 消息
     .message{
       span{
-        color: $main_color;
+        color: #e43a3d;
       }
     }
     // 功能选项
@@ -74,7 +74,7 @@
         background-color: transparent;
         border: none;
         &:hover{
-          color: $main_color;
+          color: #e43a3d;
         }
       }
     }
@@ -132,7 +132,7 @@
           top: 0;
           left: 50%;
           height: 5px;
-          width: 80px;
+          width: 90%;
           transform: translateX(-50%);
         }
       }
@@ -150,6 +150,7 @@
         height: 100%;
         width: 100%;
         padding-left: 35px;
+        border: none;
       }
       i{
         font-size: 16px;

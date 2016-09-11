@@ -1,7 +1,10 @@
 {
   "es6/ajaxurl.js": "es6/ajaxurl-b03742d321.js",
+  "es6/coursecenter/course.js": "es6/coursecenter/course-a3e93b4517.js",
   "es6/lib/vue-tap.js": "es6/lib/vue-tap-0128882e5c.js",
   "es6/lib/vue.js": "es6/lib/vue-0cffaa966a.js",
-  "es6/tools.js": "es6/tools-23b3948857.js",
-  "es6/videoplayer/player.js": "es6/videoplayer/player-7e0a534f0f.js"
+  "es6/master/presence.js": "es6/master/presence-5b6772097c.js",
+  "es6/mine/personal.js": "es6/mine/personal-fba404faf9.js",
+  "es6/tools.js": "es6/tools-4b4ed1ab61.js",
+  "es6/videoplayer/player.js": "es6/videoplayer/player-988429fe48.js"
 }

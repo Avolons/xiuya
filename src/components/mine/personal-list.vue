@@ -2,7 +2,7 @@
     <header>
       <common-header></common-header>
     </header>
-    <article class="person-content">
+    <article class="person-content clear">
         <!-- 左侧列表部分 -->
         <section class="person-left">
             <figure>
@@ -26,8 +26,8 @@
             </ul>
         </section>
         <!-- 右侧主体内容展现部分 -->
-        <section class="person-left">
-
+        <section class="person-right">
+              
         </section>
     </article>
     <footer>

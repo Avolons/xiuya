@@ -1,0 +1,21 @@
+.booksearch{
+  height: 50px;
+  padding-left: 40px;
+  background-color: #ffffff;
+  padding-right: 35px;
+  >h1{
+    color: #313131;
+    font-size: 17px;
+    height: 50px;
+    line-height: 50px;
+    width: 500px;
+    float: left;
+  }
+  >.search-input{
+    width: 275px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    padding-left: 50px;
+  }
+}

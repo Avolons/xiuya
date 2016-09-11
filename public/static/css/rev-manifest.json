@@ -1,6 +1,20 @@
 {
+  "common/footer.css": "common/footer-4685bb8402.css",
+  "common/header.css": "common/header-deeb16891c.css",
+  "config.css": "config-4db21faf9d.css",
+  "coursecenter/course-main.css": "coursecenter/course-main-ba46f91dad.css",
+  "master/presence-main.css": "master/presence-main-48ddcfa4b1.css",
+  "mine/personal-book.css": "mine/personal-book-256be66fdc.css",
+  "mine/personal-card.css": "mine/personal-card-d41d8cd98f.css",
+  "mine/personal-code.css": "mine/personal-code-d41d8cd98f.css",
+  "mine/personal-course.css": "mine/personal-course-d41d8cd98f.css",
+  "mine/personal-data.css": "mine/personal-data-d41d8cd98f.css",
+  "mine/personal-list.css": "mine/personal-list-bd7f729643.css",
+  "mine/personal-myanswer.css": "mine/personal-myanswer-d41d8cd98f.css",
+  "mine/personal-mycer.css": "mine/personal-mycer-d41d8cd98f.css",
+  "mine/personal-mycourse.css": "mine/personal-mycourse-d41d8cd98f.css",
   "videoplayer/player-leftvideo.css": "videoplayer/player-leftvideo-d41d8cd98f.css",
-  "videoplayer/player-main.css": "videoplayer/player-main-e2505a5cbb.css",
-  "videoplayer/player-rightselect.css": "videoplayer/player-rightselect-931a916a93.css",
+  "videoplayer/player-main.css": "videoplayer/player-main-6527d2a6d4.css",
+  "videoplayer/player-rightselect.css": "videoplayer/player-rightselect-70015294d1.css",
   "videoplayer/player.css": "videoplayer/player-75b252ff82.css"
 }
